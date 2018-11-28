@@ -1,3 +1,4 @@
+be
 a
 abandon
 ability
@@ -245,7 +246,6 @@ basketball
 bathroom
 battery
 battle
-be
 beach
 bean
 bear

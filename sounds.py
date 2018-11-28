@@ -135,12 +135,14 @@ class VTypes:
 
 
 c_changes = [
-    ["b", "p", "ɸ"],
+    ["b", "p", "ɸ", "f"],
     ["d", "t", "θ"],
     ["g", "k", "x", "h", ""],
+    ["g", "g", "g"],
     ["p", "f"],
-    ["t", "ð"],
+    ["t", "ð", "d"],
     ["ð", "θ"],
+    ["θ", "f"],
     [rf"([{flatvowels}])n", r"\1\u0303n"],
     ["ka", "ʃa"],
     ["ke", "se"],
@@ -158,6 +160,7 @@ c_changes = [
     ["tu", "tʃu"],
     ["ox", "ax"],
     ["oħ", "aħ"],
+    [rf"[{flatnonsibil}]([{flatnonsibil}])", r"\1"],
     [rf"([{flatsibil}])[{flatnonsibil}]", r"\1"],
     [rf"(([{flatcons}])\1)", r"\1"],
     [r"s+is", r"ris"]
@@ -167,12 +170,11 @@ v_changes = {
     "unstressed": [
         [r"a", r"ə"],
         [r"i", r"ə"],
-    ],
-    "stressed": [
         [r"([a])(.*?[i])", r"e\1"],
         [r"([a])([^ɪ].*?[ɪ])", r"e\1"],
         [r"aʊ", r"o"],
         [r"au", r"o"],
+        [r"ʊ", r"ɪʊ"]
     ]
 }
 
