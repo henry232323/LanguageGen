@@ -1,6 +1,6 @@
 import random
 import enum
-import words, sounds
+import words, sounds, sentence
 
 choice = random.choice
 
@@ -24,6 +24,27 @@ class Lang:
         self.consonants = inventory[0]
         self.vowels = inventory[1]
         self.mutations = []
+        self.wordpattern = {
+            1: {
+                "W":[["S", "V"]],
+                "S":[[0, 3, 1],["N"],["N", "P", "O"]],
+                "O":[[0, 3, 1],["N"],["N", "P", "O"]],
+                "IO":[[0, 1], ["P", "O"]],
+                "V":[[0,1,1,1,1], ["V0"],["V0", "IO"],["V1", "O"],["V2", "O", "IO"]]
+            },
+            0: {
+                "W":[["S", "V"]],
+                "S":[[0, 3, 1],["N"],["O", "P", "N"]],
+                "O":[[0, 3, 1],["N"],["O", "P", "N"]],
+                "IO":[[0, 1],["O", "N"]],
+                "V":[[0,1,1,1,1],["V0"],["IO", "V0"],["O", "V1"],["O", "IO", "V2"]]
+            },
+            "V0": lambda: self.get_type("ACT", lambda x: x.nobjects == 0),
+            "V1": lambda: self.get_type("ACT", lambda x: x.nobjects == 1),
+            "V2": lambda: self.get_type("ACT", lambda x: x.nobjects == 2),
+            "N": lambda: self.get_type("OBJ"),
+            "P": lambda: self.get_type("POS"),
+        }
 
     def create_random(self, defn=None, part=None):
         nsylla = random.choice([1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3])
@@ -37,7 +58,10 @@ class Lang:
             mutchance = 100 / (words.TOPWORDS.index(defn) + 1)
         else:
             mutchance = 1e-4
-        self.corpus[defn] = word = words.Word(self, defn, part, mutchance, syllables, sindex)
+        if part == "ACT":
+            self.corpus[defn] = word = words.Verb(self, defn, part, mutchance, syllables, sindex, nobjects=random.randint(0, 2))            
+        else:
+            self.corpus[defn] = word = words.Word(self, defn, part, mutchance, syllables, sindex)
         return word
 
     def rand_sylla(self):
@@ -80,6 +104,27 @@ class Lang:
         for i in range(n):
             for w in self.corpus.values():
                 w.mutate()
+
+    def __repr__(self):
+        return f"Lang(corpus={len(self.corpus)} words)"
+
+    def get_type(self, type, check=lambda x: True):
+        return choice(list(filter(lambda x: x.part == type and check(x), self.corpus.values())))
+
+    def create_sentence(self):
+        final = []
+        pattern = self.wordpattern[self.order]
+        stype = choice(pattern["W"])
+        final.extend(self.create_part(stype, pattern))
+        return sentence.Sentence(*zip(*final))
+
+    def create_part(self, chunk, pattern):
+        for item in chunk:
+            if item in pattern:
+               yield from self.create_part(random.choices(pattern[item], weights=pattern[item][0])[0],pattern)
+            else:
+                yield (item, self.wordpattern[item]())
+                
 
     """
     def rand_sylla(self):
