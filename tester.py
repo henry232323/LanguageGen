@@ -80,7 +80,7 @@ patterns = {
 }
 
 f = lang.Lang(patterns=patterns, inventory=(consonants, vowels))
-f.create_corpus(30)
-print(f.corpus)
+f.create_corpus(100)
+#print(f.corpus)
 f.mutate(1000)
-print(f.corpus)
+#print(f.corpus)
