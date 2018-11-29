@@ -36,7 +36,7 @@ class Lang:
                 "W":[["S", "V"]],
                 "S":[[0, 3, 1],["N"],["O", "P", "N"]],
                 "O":[[0, 3, 1],["N"],["O", "P", "N"]],
-                "IO":[[0, 1],["O", "N"]],
+                "IO":[[0, 1],["O", "P"]],
                 "V":[[0,1,1,1,1],["V0"],["IO", "V0"],["O", "V1"],["O", "IO", "V2"]]
             },
             "V0": lambda: self.get_type("ACT", lambda x: x.nobjects == 0),
@@ -115,15 +115,15 @@ class Lang:
         final = []
         pattern = self.wordpattern[self.order]
         stype = choice(pattern["W"])
-        final.extend(self.create_part(stype, pattern))
+        final.extend(self.create_part(stype, "W", pattern))
         return sentence.Sentence(*zip(*final))
 
-    def create_part(self, chunk, pattern):
+    def create_part(self, chunk, nitem, pattern):
         for item in chunk:
             if item in pattern:
-               yield from self.create_part(random.choices(pattern[item], weights=pattern[item][0])[0],pattern)
+                yield from self.create_part(random.choices(pattern[item], weights=pattern[item][0])[0], item, pattern)
             else:
-                yield (item, self.wordpattern[item]())
+                yield (item, nitem, self.wordpattern[item]())
                 
 
     """

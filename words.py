@@ -61,40 +61,25 @@ COMMONCHART = {
         "at",
         "from",
         "into",
-        "during",
-        "including",
-        "until",
         "against",
         "among",
-        "throughout",
-        "despite",
-        "towards",
-        "upon",
-        "concerning",
         "to",
         "in",
         "for",
         "on",
         "by",
         "about",
-        "like",
         "through",
         "over",
         "before",
         "between",
         "after",
-        "since",
         "without",
         "under",
         "within",
-        "along",
-        "following",
         "across",
         "behind",
         "beyond",
-        "plus",
-        "except",
-        "but",
         "up",
         "out",
         "around",
@@ -102,7 +87,12 @@ COMMONCHART = {
         "off",
         "above",
         "near"
+    ],
+    "DESC": [
+        "not",
+        "quick"
     ]
+
 }
 preps = {'of': 5220, 'with': 1062, 'at': 624, 'from': 622, 'into': 301, 'during': 103, 'including': 58, 'until': 54, 'against': 46, 'among': 37, 'throughout': 27, 'despite': 17, 'towards': 16, 'upon': 15, 'concerning': 3, 'to': 4951, 'in': 2822, 'for': 1752, 'on': 1087, 'by': 706, 'about': 451, 'like': 324, 'through': 235, 'over': 170, 'before': 141, 'between': 137, 'after': 110, 'since': 107, 'without': 89, 'under': 70, 'within': 46, 'along': 45, 'following': 39, 'across': 36, 'behind': 22, 'beyond': 20, 'plus': 14, 'except': 6, 'but': 626, 'up': 296, 'out': 294, 'around': 101, 'down': 94, 'off': 74, 'above': 40, 'near': 13}
 
