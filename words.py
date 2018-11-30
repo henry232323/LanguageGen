@@ -129,7 +129,7 @@ class Word:
                 for j in range(len(item) - 1):
                     if item[j] in s:
                         f = s
-                        s = s.replace(item[j], item[j + 1])
+                        s = re.sub(item[j], item[j + 1], s)
                         self.language.mutations.append((f, s))
                         c = True
                         if random.random() < 0.5:
@@ -143,21 +143,15 @@ class Word:
                 for item in random.sample(sounds.v_changes[changes], len(sounds.v_changes[changes])):
                     if re.match(item[0], s):
                         f = s
-                        s = re.sub(item[0], s, item[1])
+                        s = re.sub(item[0], item[1], s)
                         self.language.mutations.append((f, s))
 
             self.whole = s
 
 
 class Verb(Word): # 0 obj = intransitive, 1 obj = transitive, 2 indirect object
-    def __init__(self, lang, defn, part, mutchance=1e-4, syllables=None, sindex=0, nobjects=0):
-        self.language = lang
-        self.part = part
-        self.mutchance = mutchance
-        self.syllables = syllables or []
-        self.stressindex = sindex
-        self.meaning = defn
-        self.whole = "".join(syllables)
+    def __init__(self, *args, nobjects=0, **kwargs,):
+        super().__init__(*args, **kwargs)
         self.nobjects = nobjects
     
     def __repr__(self):

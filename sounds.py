@@ -104,9 +104,9 @@ def flatten(d: dict):
 flatvowels = flatten(vowels)
 flatcons = flatten(consonants)
 flatnasals = flatten(consonants["nasal"])
-flatstops = flatten(consonants["stop"])
-flatsibil = flatten(consonants["sibilant fricative"])
-flatnonsibil = flatten(consonants["non-sibilant fricative"])
+flatstops: str = flatten(consonants["stop"])
+flatsibil: str = flatten(consonants["sibilant fricative"])
+flatnonsibil: str = flatten(consonants["non-sibilant fricative"])
 
 
 ctypes = list(consonants.keys())
@@ -160,6 +160,7 @@ c_changes = [
     ["tu", "tʃu"],
     ["ox", "ax"],
     ["oħ", "aħ"],
+    ["mθ", "mf"],
     [rf"[{flatnonsibil}]([{flatnonsibil}])", r"\1"],
     [rf"([{flatsibil}])[{flatnonsibil}]", r"\1"],
     [rf"(([{flatcons}])\1)", r"\1"],
@@ -170,11 +171,12 @@ v_changes = {
     "unstressed": [
         [r"a", r"ə"],
         [r"i", r"ə"],
-        [r"([a])(.*?[i])", r"e\1"],
-        [r"([a])([^ɪ].*?[ɪ])", r"e\1"],
+        [r"(a)(.*?[i])", r"e\2"],
+        [r"(a)([^ɪ].*?[ɪ])", r"e\2"],
         [r"aʊ", r"o"],
         [r"au", r"o"],
-        [r"ʊ", r"ɪʊ"]
+        [r"ʊ", r"ɪʊ"],
+        [r"ʌæ", r"ʌ"]
     ]
 }
 
