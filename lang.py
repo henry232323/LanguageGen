@@ -34,19 +34,20 @@ class Lang:
             },
             0: {
                 "W":[["S", "V"]],
-                "S":[[0, 3, 1],["N"],["O", "P", "N"]],
-                "O":[[0, 3, 1],["N"],["O", "P", "N"]],
+                "S":[[0, .75, .25],["N"],["O", "P", "N"]],
+                "O":[[0, .75, .25],["N"],["O", "P", "N"]],
                 "IO":[[0, 1],["O", "P"]],
-                "V":[[0,1,1,1,1],["V0"],["IO", "V0"],["O", "V1"],["O", "IO", "V2"]]
+                "V":[[0,.75,.25,1,1],["V0"],["IO", "V0"],["O", "V1"],["O", "IO", "V2"]]
             },
             "V0": lambda: self.get_type("ACT", lambda x: x.nobjects == 0),
             "V1": lambda: self.get_type("ACT", lambda x: x.nobjects == 1),
             "V2": lambda: self.get_type("ACT", lambda x: x.nobjects == 2),
             "N": lambda: self.get_type("OBJ"),
             "P": lambda: self.get_type("POS"),
+            "D": lambda: self.get_type("DESC-+"),
         }
 
-    def create_random(self, defn=None, part=None):
+    def create_random(self, defn=None, part=None, nobj=0):
         nsylla = random.choice([1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3])
         syllables = []
         part = part or random.choice(list(words.COMMONCHART.keys()))
@@ -59,7 +60,7 @@ class Lang:
         else:
             mutchance = 1e-4
         if part == "ACT":
-            self.corpus[defn] = word = words.Verb(self, defn, part, mutchance, syllables, sindex, nobjects=random.randint(0, 2))            
+            self.corpus[defn] = word = words.Verb(self, defn, part, mutchance, syllables, sindex, nobjects=nobj or random.randint(0, 2))
         else:
             self.corpus[defn] = word = words.Word(self, defn, part, mutchance, syllables, sindex)
         return word
