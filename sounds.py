@@ -36,9 +36,42 @@ consonants = {
         "pharyngeal": ["ħ", "ʕ"],
         "glottal": ["h", "ɦ"]
     },
-    # "approximant": { },
-    # "tap/flap": { },
-    # "trill": { },
+    "approximant": {
+        "labio-dental": ["ʋ̥	", "ʋ"],
+        "alveolar": ["ɹ̥	", "ɹ"],
+        "retro-flex": ["ɻ̊", "ɻ"],
+        "palatal": ["j̊", "j"],
+        "velar": ["ɰ̊", "ɰ"],
+        "glottal": ["ʔ̞"],
+    },
+    "trill": {
+        "bilabial": ["ʙ̥	", "ʙ"],
+        "alveolar": ["r̥", "r"],
+        "uvular": ["ʀ̥", "ʀ"],
+        "pharyngeal": ["ʜ", "ʢ"],
+    },
+    "tap/flap": {
+        "bilabial": ["ⱱ̟"],
+        "labio-dental": ["ⱱ"],
+        "linguo-labial": ["ɾ̼"],
+        "alveolar": ["ɾ̥	", "ɾ"],
+        "retro-flex": ["ɽ̊", "ɽ"],
+        "uvular": ["ɢ̆"],
+        "pharyngeal": ["ʡ̆"]
+    },
+    "lateral fricative": {
+        "alveolar": ["ɬ","ɮ"],
+        "retro-flex": ["ɭ̊˔", "ɭ˔"],
+        "palatal": ["ʎ̝̊", "ʎ̝"],
+        "velar": ["	ʟ̝̊", "ʟ̝"]
+    },
+    "lateral approximant": {
+        "alveolar": ["l̥", "l"],
+        "retro-flex": ["ɭ̊", "ɭ"],
+        "palatal": ["ʎ̥", "ʎ"],
+        "velar": ["ʟ̥", "ʟ"],
+        "uvular": ["ʟ̠"]
+    }
 }
 
 vowels = {
