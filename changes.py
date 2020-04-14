@@ -48,7 +48,7 @@ codes = dict(
     # obstruent={x for x in ipapy.IPA_CHARS if x.is_consonant and x.manner == "nasal"},
     P={x for x in ipapy.IPA_CHARS if x.is_consonant and x.place == "bilabial"},
     Q={x for x in ipapy.IPA_CHARS if x.is_consonant and x.place == "uvular"},
-    R={x for x in ipapy.IPA_CHARS if x.is_consonant and x.manner == ("approximant", "nasal", "flap", "tap", "trill")},
+    R={x for x in ipapy.IPA_CHARS if x.is_consonant and x.manner in ("approximant", "nasal", "flap", "tap", "trill")},
     S={x for x in ipapy.IPA_CHARS if x.is_consonant and x.manner == "plosive"},
     T={x for x in ipapy.IPA_CHARS if x.is_consonant and x.manner == "plosive" and x.voicing == "voiceless"},
     V={x for x in ipapy.IPA_CHARS if x.is_vowel},
@@ -64,10 +64,8 @@ def format_group(letter):
     return "({})".format("|".join(str(x) for x in group))
 
 
-RULES = []
-
-
-def parse(line):
+def parse(RULES, line):
+    line = line.replace("*", "").replace("!", "")
     if '→' not in line:
         return
     l, r = line.split("→")
@@ -95,11 +93,16 @@ def parse(line):
 
         subr = subr.strip()
         # print(optpat.findall(subr))
+
         allsubs = [
                       [(x[0], y) for y in x[0].strip("{").strip("}").split(",")]
                       for x in anypat.findall(subr)
                   ] + [[(x, ""), (x, x.strip("(").strip(")"))] for x in optpat.findall(subr)]
         # print(allsubs)
+        try:
+            re.compile(subl)
+        except:
+            print(line)
         if not allsubs:
             RULES.append((subl, subr))
         else:
@@ -114,19 +117,27 @@ def parse(line):
     return RULES
 
 
-if __name__ == "__main__":
+def get_defaults():
     with open("index-diachronica.txt", 'r', encoding="UTF-8") as text:
         data = text.read()
 
-    for line in data.split():
+    rules = []
+    for i, line in enumerate(data.split("\n")):
         try:
-            parse(line)
-        except:
-            continue
+            parse(rules, line)
+        except Exception as e:
+            pass
+            #print(e)
 
-    with open("rules.json", "w") as rfile:
-        rfile.write(json.dumps(RULES, indent=4, ensure_ascii=False))
+    with open("rules.json", "w", encoding="UTF-8") as rfile:
+        rfile.write(json.dumps(rules, indent=4, ensure_ascii=False))
+
+    return rules
+
+
+if __name__ == "__main__":
+    default_rules = get_defaults()
 
 else:
-    with open("rules.json", "r") as rfile:
-        RULES = json.load(rfile)
+    with open("rules.json", "r", encoding="UTF-8") as rfile:
+        default_rules = json.load(rfile)
