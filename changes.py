@@ -26,10 +26,10 @@
     """
 
 import itertools
+import json
 import re
 
 import ipapy
-from ipapy.ipastring import IPAString
 
 codes = dict(
     A={x for x in ipapy.IPA_CHARS if x.is_consonant and x.manner == "affricate"},
@@ -55,8 +55,6 @@ codes = dict(
     W={x for x in ipapy.IPA_CHARS if x.is_consonant and x.manner == "glide"},
 )
 
-rules = []
-
 optpat = re.compile(r"(\(.+?\))")
 anypat = re.compile(r"({(.*?,)*?(.*?)})")
 
@@ -64,6 +62,9 @@ anypat = re.compile(r"({(.*?,)*?(.*?)})")
 def format_group(letter):
     group = codes[letter]
     return "({})".format("|".join(str(x) for x in group))
+
+
+RULES = []
 
 
 def parse(line):
@@ -75,13 +76,22 @@ def parse(line):
         subl = subl.strip()
         subl = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
 
-        codecount = 0
-        for code in subl:
+        for code in codes:
+            if code in subr and code not in subl:
+                return
+
+        i = 0
+        subr = subr.replace("Ø", "")
+        while i < len(subl):
+            code = subl[i]
             if code in codes:
-                print(subl)
-                subl = subl.replace(code, format_group(code), 1)
-                subr = subr.replace(code, rf"\{codecount + 1}", 1)
-                codecount += 1
+                fg = format_group(code)
+                subl = subl.replace(code, fg, 1)
+                tc = subl[:i].count('(')
+                subr = subr.replace(code, rf"\{tc + 1}", 1)
+                i += len(fg)
+            else:
+                i += 1
 
         subr = subr.strip()
         # print(optpat.findall(subr))
@@ -91,7 +101,7 @@ def parse(line):
                   ] + [[(x, ""), (x, x.strip("(").strip(")"))] for x in optpat.findall(subr)]
         # print(allsubs)
         if not allsubs:
-            rules.append((subl, subr))
+            RULES.append((subl, subr))
         else:
             for prod in itertools.product(*allsubs):
                 psubr = subr
@@ -99,22 +109,24 @@ def parse(line):
                 for full, choice in prod:
                     psubr = psubr.replace(full, choice)
 
-                rules.append((subl, psubr))
+                RULES.append((subl, psubr))
 
-    return rules
+    return RULES
 
 
-with open("index-diachronica.txt", 'r') as text:
-    data = text.read()
+if __name__ == "__main__":
+    with open("index-diachronica.txt", 'r', encoding="UTF-8") as text:
+        data = text.read()
 
-for line in data.split():
-    try:
-        parse(line)
-    except:
-        continue
+    for line in data.split():
+        try:
+            parse(line)
+        except:
+            continue
 
-print(len(rules))
-import json
+    with open("rules.json", "w") as rfile:
+        rfile.write(json.dumps(RULES, indent=4, ensure_ascii=False))
 
-with open("rules.json", "w") as rfile:
-    rfile.write(json.dumps(rules, indent=4))
+else:
+    with open("rules.json", "r") as rfile:
+        RULES = json.load(rfile)
