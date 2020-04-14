@@ -1,3 +1,4 @@
+import itertools
 import re
 
 import ipapy
@@ -57,7 +58,7 @@ codes = dict(
     W={x for x in ipapy.IPA_CHARS if x.is_consonant and x.manner == "glide"},
 )
 
-rules = {}
+rules = []
 
 optpat = re.compile(r"(\(.+?\))")
 anypat = re.compile(r"({(.*?,)*?(.*?)})")
@@ -73,9 +74,42 @@ for line in data.split():
             result = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
             subr = subr.strip()
             print(result)
-            subr = [anypat.fullmatch(optpat.sub(r"\1?", subr))]
+            subr = anypat.findall(optpat.sub(r"\1?", subr))
+            print(subr)
+            for prod in itertools.product(subr):
+                rules.append((result, subr.replace(prod, asd)))
     except:
         continue
+
+
+import re, itertools
+
+optpat = re.compile(r"(\(.+?\))")
+anypat = re.compile(r"({(.*?,)*?(.*?)})")
+
+rules = []
+
+
+def parse(line):
+    if '→' not in line:
+        return
+    l, r = line.split("→")
+    r = re.sub("(.*?)/.*$", r"\1", r)
+    for subl, subr in zip(l.split(), r.split()):
+        subl = subl.strip()
+        result = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
+        subr = subr.strip()
+        print(result)
+        print(subr, optpat.sub(r"\1?", subr))
+        allsubs = [x[0] for x in anypat.findall(subr)] + [x[0] for x in optpat.findall(subr)]
+        print(subr)
+        for prod in itertools.product(subr):
+            rules.append((result, subr.replace(prod, prod.strip("{").strip("}").split(","))))
+
+
+
+
+
 
 
 
