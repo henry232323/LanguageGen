@@ -4,17 +4,23 @@ from random import sample, shuffle
 
 import eng_to_ipa as ipa
 
-from changes import RULES
+from changes import default_rules
 
 
-def runchanges(corpus, nchanges=25):
+def runchanges(corpus, nchanges=25, debug=False):
     frules = []
-    for rule in RULES:
-        if any(re.match(rule[0], word[0]) for word in corpus.values()):
-            frules.append(rule)
+    for rule in default_rules:
+        try:
+            if any(re.findall(rule[0], word[0]) for word in corpus.values()):
+                frules.append(rule)
+        except:
+            print(rule[0])
 
-    print(f"{len(frules)} rules available for corpus")
-    apply = sample(frules, nchanges)
+    if debug:
+        print(f"{len(frules)} rules available for corpus")
+    apply = sample(frules, min(nchanges, len(frules)))
+    if debug:
+        print("Rules:", apply)
     for rule in apply:
         for word in corpus:
             lword = corpus[word][-1]
@@ -24,9 +30,11 @@ def runchanges(corpus, nchanges=25):
 
     return corpus
 
+
 def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
+
 
 def convert(text):
     vals = ""
@@ -34,6 +42,7 @@ def convert(text):
         vals += " " + ipa.convert(" ".join(chunk))
 
     return vals
+
 
 if __name__ == "__main__":
     with open("old\\words.txt", 'r') as wf:
