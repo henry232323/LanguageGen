@@ -73,9 +73,7 @@ for line in data.split():
             result = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
             subr = subr.strip()
             print(result)
-            subr = [anypat.sub(r"\2\3", x) for x in anypat.findall(optpat.sub(r"\1?", subr))]
-
-
+            subr = [anypat.fullmatch(optpat.sub(r"\1?", subr))]
     except:
         continue
 
