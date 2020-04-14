@@ -1,8 +1,11 @@
-import simulator
 import changes
+import simulator
 
-print(changes.parse([], "t tʃ k(w ) → d dʒ ɡ(w ) / _{V,R}"))
+rules = []
+changes.parse(rules, "t tʃ k kw → d dʒ ɡ gw / _{V,R}")
+changes.parse(rules, "C[+voice] → C[-voice] / _{V,R}")
+print(rules)
 
-#corpus = {"talaxak": ["t͡salaxak"]}
+corpus = {"talaxak": ["t͡salaxak"]}
 
-#print(simulator.runchanges(corpus, debug=True))
+print(simulator.runchanges(corpus, debug=True, rules=rules))

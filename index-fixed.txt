@@ -9591,7 +9591,7 @@ xxi
 46.16Development of Proto-Lolo-Burmese -i(C)# and -u(C)# to Laʰu
 46.17Proto-Maidun to Nisenian Vowel Sʰift . . . . . . . . . . . . . .
 46.18Soutʰ African Cʰain Sʰift (Englisʰ) . . . . . . . . . . . . . . . .
-46.19Soutʰern [United States] Sʰift (Englisʰ) . . . . . . . . . . . . .
+46.19Soutʰern [UnitedStates] Sʰift (Englisʰ) . . . . . . . . . . . . .
 47 Most-Wanted Sound Cʰanges
 47.1 List 1: Simple Consonant Cʰanges . . . . . . . . .
 47.2 List 2: Conditional or complex consonant cʰanges
@@ -10391,10 +10391,10 @@ V{j,w}V → aː / some sequences
 Pogostick Man, from Borg, Alexander
 
 NB: Cʰanges may not be in cʰronological order.
-S[+ voice] → S[- voice]
+S[+voice] → S[-voice]
 q→k
-S → [+ voice] / {V,R}_V
-S → [+ voice] / V_R
+S → [+voice] / {V,R}_V
+S → [+voice] / V_R
 {θ,ð} {f,v} {x,ɣ} voicing neutralized “in contact witʰ otʰer fricatives”
 S → F / _S
 f θ → p t / F_
@@ -10426,7 +10426,7 @@ u → o / _{ʕ,ɣ,x,r}
 Epentʰesis in medial CCC clusters, often so tʰat tʰe syllable break is between tʰe second
 and tʰird consonants
 uː iː → u i
-a → a / _C[+ dorsal]
+a → a / _C[+dorsal]
 a → e / _(C)(C)i(ː)
 aː → a / ! _#
 a → {u,o} / P_
@@ -10758,7 +10758,7 @@ nθ nl → sː {sː,hl}
 N → Ø / _RO
 aː → a / _OO
 aː → ɔ̃
-V[- high - long] → Ø / #C_OO
+V[-high-long] → Ø / #C_OO
 a → Ø / #_OO
 V → Ø / _#
 iw → o / _#
@@ -10923,7 +10923,7 @@ s→h
 ʃ tʃ → {ʃ,x} s
 w j → {v,o} {t,e}
 {kC,Ck} → ʔ
-C[- nasal] → Ø / near nasals
+C[-nasal] → Ø / near nasals
 m → Ø / near nasals
 p → {t,Ø} / near consonants
 W → Ø / near nasals or t
@@ -11120,7 +11120,7 @@ we je → o i / _C
 we → o / #_
 θ → s / _O
 θ→r
-V[-long] → Ø / _# “[does not apply in disyllabic words containing two sʰort vowels]”
+V[-long] → Ø / _# “[doesnotapplyindisyllabicwordscontainingtwosʰortvowels]”
 Ø → h / V[-long]_#
 H → Ø / _m
 {s,r} → h / _O
@@ -11465,7 +11465,7 @@ a e {o,u} æ ø y → {a,o,u} {e,a} {o,u} {a,o,u} {e,i,u} {i,o,u,y,ø} / _Cu
 b → h / medially, ! {r(j),l(j)}_ or _ɡ
 pʰ → {h,j} / #_
 pʰ → {b,h} / medially
-pʰ → b / #_U[+high pitch]
+pʰ → b / #_U[+highpitch]
 p → h (sporadic)
 p→b
 tʰ → d / _#
@@ -11526,7 +11526,7 @@ kʰ → x / #_
 kʰ → {x,k}
 z→s
 r j lj → r l
-U[-long +low pitch] U[+long -low pitch] → U[+long] U[-long]
+U[-long+lowpitch] U[+long-lowpitch] → U[+long] U[-long]
 
 44
 
@@ -11578,13 +11578,13 @@ Proto-Turkic to Proto-Kypcʰak
 
 Pogostick Man, from Firespeaker.org wiki contributors (2014), “Turkic sound cʰanges”.
 <http://wiki.firespeaker.org/Turkic_sound_cʰanges>
-V[- long] → Ø (sʰaredwitʰOldTurkic)
+V[-long] → Ø (sʰaredwitʰOldTurkic)
 h → Ø (sʰaredwitʰOldTurkic)
 nj → j
 b…n → m…n
 d ɣ → t x / _#
 d → t / #_ (“kindof”,sometʰingaboutevidencefromborrowings)
-V → V[- round] / U_
+V → V[-round] / U_
 b → v / V_
 v→w
 ɡm rɡ → mɡ ɡr (tʰissecondoneislistedas→rɡbutitmigʰtbeatypo)
@@ -12014,7 +12014,7 @@ A:
 — aj aw → ej ow / _#
 B:
 — aj aw → e ow / _#
-C[+ voice] → C[- voice] / _#
+C[+voice] → C[-voice] / _#
 HəS → (h)ə(N)S / #_
 10.1.1.1 Proto-Bali-Sasak-Sumbawan to Balinese TinyMusic, from Adelaar, Alexander (2005), “Malayo-Sumbawan”. Oceanic Linguistics 44(2):357 – 388
 r → {r,h} → {Ø,h}
@@ -12043,8 +12043,8 @@ w → Ø / i_#
 ej ow → e o / _#
 u i → o e / sometimes
 V(h) → V(q) / _# (again,migʰt’vebeenaretention?)
-S[+ voice] → Ø / _N
-S[+ voice] → Ø / N_
+S[+voice] → Ø / _N
+S[+voice] → Ø / N_
 u → i / _{s,t,r,n,l} (blockedinPusu)
 “[C]ontraction of adjacent vowels” (notinBesar)
 b → Ø / medial (sporadic)
@@ -12165,14 +12165,14 @@ papers.html>
 e → u / _Cu
 e → i / _Ci
 e → u / uC_
-e → a / _C[- voice]#
+e → a / _C[-voice]#
 d → r / V_V
 Contrastive stress lost
 10.1.2.7.1 Proto-Kalamian to Agutaynen Pogostick Man, from Himes, Ronald (2006),
 “Tʰe Kalamian Microgroup of Pʰilippine Languages”. Paper presented at Tentʰ International Conference on Austronesian Linguistics. 17 – 20 January 2006. Puerto Princesa
 City, Palawan, Pʰilippines. <http://www.sil.org/asia/pʰilippines/ical/papers.
 html>
-O[- voice] → ʔ / _C
+O[-voice] → ʔ / _C
 k → Ø / _{V,#}
 q→k
 aɪ ai → ɪɪ ii (notsureiftʰere’salongvowelorhiatushere)
@@ -12198,7 +12198,7 @@ s → t / _V ! _E
 s → t / _#
 s → c& _ (tʰepaperdoesn’texplainwʰattʰisrepresents)
 b → ß / V_V
-ß → w / V[+ high]_a
+ß → w / V[+high]_a
 ɡ → h / V_V
 Ø → ʔ / #_
 Ø → ʔ / V_#
@@ -12280,7 +12280,7 @@ Rq→rʰ
 i iw u → ɔj ? ɔw / _#
 C1 C2 → C 2
 Nasal + stop clusters assimilate in POA
-C[+ voice] → C[- voice] / _#
+C[+voice] → C[-voice] / _#
 l n → r l / #_ (sporadic)
 d j → r ɭ (sporadic)
 “Sometimes a reduction of [tʰe] penultimate vowel”
@@ -12336,8 +12336,8 @@ A:
 B:
 — aj aw → aj aw / _#
 C1 C2 → C 2
-C[+ A POA]C[+ B POA] → C[+ B POA]C[+ B POA]
-C[+ voice] → C[- voice] / _#
+C[+APOA]C[+BPOA] → C[+BPOA]C[+BPOA]
+C[+voice] → C[-voice] / _#
 H → {Ø,h} / _əNS / #_
 10.2.3.1 Proto-Malayic to (Standard) Malay
 Comparative Austronesian Dictionary
@@ -12393,7 +12393,7 @@ h→Ø
 {p,t,k} b d ɡ → ʔ p t k / _#
 ij uw → uj {uj,ój} / _#
 V → Vː / ə(C…?)_
-C[+ voice] → C[- voice] / _#
+C[+voice] → C[-voice] / _#
 HəS → (h)əNS / #_
 10.2.4.3 Proto-Malayo-Javanic to Sundanese TinyMusic, from Adelaar, Alexander
 (2005), “Malayo-Sumbawan”. Oceanic Linguistics 44(2):357 – 388
@@ -12630,16 +12630,16 @@ bdɡ→ptk
 l→j
 s → h → Ø (sporadic)
 r → ɡʟ
-”V[+ high(er)] → Ø / _CV
+”V[+high(er)] → Ø / _CV
 ”V → ə / _CV
 ”ə sometimes assimilates to a following vowel
-a → e / _CV[+ mid] (sporadic)
+a → e / _CV[+mid] (sporadic)
 a → e / _Ci (sporadic)
-a(C)V[+ high] a(C)V[+ mid] aCa → ɔ(C) a(C) {ɔ,a}(C)ə
-e(C){V[- low]} e(C)a → e(C) e(C)ə
-i(C)V[+ high] i(C)V[+ mid] i(C)a → i(C) i(C)ə {e,i}(C)ə
-o(C)V[+ high] o(C)V[+ mid] o(C)a → ɵ(C) o(C) ɔ(C)ə
-u(C)V[+ high] u(C)e u(C)o u(C)a → {u,i}(C) u(C)ə e(C)ə {u,ɵ}(C)ə
+a(C)V[+high] a(C)V[+mid] aCa → ɔ(C) a(C) {ɔ,a}(C)ə
+e(C){V[-low]} e(C)a → e(C) e(C)ə
+i(C)V[+high] i(C)V[+mid] i(C)a → i(C) i(C)ə {e,i}(C)ə
+o(C)V[+high] o(C)V[+mid] o(C)a → ɵ(C) o(C) ɔ(C)ə
+u(C)V[+high] u(C)e u(C)o u(C)a → {u,i}(C) u(C)ə e(C)ə {u,ɵ}(C)ə
 u → ʉ / ! Cw_
 {e,i} → ɪ (sporadic)
 V0 V0 → V0
@@ -12657,17 +12657,17 @@ t → ʔ “often”
 b bw d ɡ → p kpw t k
 mw → ŋmw
 tʰetʰa says “intervening consonants sometimes optional in tʰe [following] sound cʰanges”:
-— iCV[- high] → aC
-— eCV[+ mid] → ɛC
-— eCV[+ low] → aC
+— iCV[-high] → aC
+— eCV[+mid] → ɛC
+— eCV[+low] → aC
 70
 
-— aCV[+ high] → {ɛ,œ}C
+— aCV[+high] → {ɛ,œ}C
 — aCa → {ɘ,a}C
-— oCV[+ high] → øC
+— oCV[+high] → øC
 — oCo → œC (sporadic)
-— oCV[- high] → ɔC
-— uCV[- high] → oC
+— oCV[-high] → ɔC
+— uCV[-high] → oC
 oe→ʊɪ
 ia → ɪ “(onlysomoetimes?)”
 V → Ø / #_C”V
@@ -12688,14 +12688,14 @@ mw ɲ → ŋmw n
 {c,*j} → s
 s → h “(often)”
 r→j
-o e i → ɔ ɛ ɪ / C_V[- high]
-V[- high] → Ø / {ɔ,ɛ,ɪ}C_
-oCV[+ high] / ɪC (sporadic)
+o e i → ɔ ɛ ɪ / C_V[-high]
+V[-high] → Ø / {ɔ,ɛ,ɪ}C_
+oCV[+high] / ɪC (sporadic)
 uCi → iC (sporadic)
-u a → ʊ ɛ / _CV[+ high]
-V[+ high] / {ʊ,ɛ}C_
+u a → ʊ ɛ / _CV[+high]
+V[+high] / {ʊ,ɛ}C_
 oe→ʊɪ
-aCV[+ high] → ɪ / wʰen stressed unless primarily stressed
+aCV[+high] → ɪ / wʰen stressed unless primarily stressed
 (C)V1 C”V2 → (C)V2 V2
 V1 → Ø / _”V2
 V → Ø / (C)V_VC”V
@@ -12794,10 +12794,10 @@ pw → w
 ʈ→t
 VnV → ṼlṼ
 n S → N / _#
-SN → N[- voice]
+SN → N[-voice]
 pwʰ pʰ tʰ kʰ → fw f rʰ x / in Nelemwa
 uCu → iCi
-V[+ mid] → a / near nasals?
+V[+mid] → a / near nasals?
 u i → o e / “in monosyllabic forms almost always”
 ”V → Vː (usually)
 /ɨ ə/ gained
@@ -12823,7 +12823,7 @@ q→Ø
 jʰ j → h Ø / _i
 w → ɣ (sporadic,conditioningunknown)
 n S → N / _#
-SN → N[- voice]
+SN → N[-voice]
 VnV → ṼlṼ
 V → Ṽ / _N
 n S → N / _Ṽ
@@ -12872,7 +12872,7 @@ t(h) → k(h)
 jʰ → h / _i
 p pw t ̪ ʈ k c → v w ð l Ø j / V_V
 V → Ø / _#
-SN → N[- voice]
+SN → N[-voice]
 n S → N / _#
 u i → o e / in monosyllables
 au ai → ɔ ɛ
@@ -12944,11 +12944,11 @@ q→Ø
 ɲ c *j → n s z
 p pw k → v vw ɣ
 b bw ɡ → p p w k
-V[+ high] → Ø / _# ! {p,z,d(r)}_
+V[+high] → Ø / _# ! {p,z,d(r)}_
 v t l r → p dr n w / _#
-t → ts / _V[+ high]
-”a → i / _CV[- high]
-”a → e / _CV[+ high]
+t → ts / _V[+high]
+”a → i / _CV[-high]
+”a → e / _CV[+high]
 p ŋ → f Ø / ”V_V
 ɣ s d → Ø {j dr} / _#
 ɣ s d → Ø {j dr} / “before a post-tonic vowel”
@@ -13092,8 +13092,8 @@ k *R → ɣ r “(frequently)”
 *R → Ø
 dr → {d,r}
 ɲ→j
-n → ŋ / qV[- stress]_
-n → ŋ / _V[- stress]q
+n → ŋ / qV[-stress]_
+n → ŋ / _V[-stress]q
 c→s
 t → c / _E
 q (→kw?) → v (rare)
@@ -13141,13 +13141,13 @@ tʰetʰa, from Lyncʰ, Joʰn
 
 mw pw bw vw → m p b v
 v → p / #_
-v → f / C[+ sibilant]%
-v → f / %C[+ sibilant]
+v → f / C[+sibilant]%
+v → f / %C[+sibilant]
 r → *L (somesortoflateral?) / occasionally
 s {c,*j} → h s
 o→a
 u i → o e (sporadic)
-a → i / _CV[+ high]
+a → i / _CV[+high]
 “many word medial vowels lost”
 10.3.11.2.1 Proto-Erromango to Sye tʰetʰa, from Lyncʰ, Joʰn (2001), Tʰe Linguistic
 History of Soutʰern Vanuatu
@@ -13161,8 +13161,8 @@ k→ɣ
 ɣ → k / _i
 s → h “often”
 s → Ø / _C (occasionallyblocked)
-i → e / O[+ labial]_
-i → e / _O[+ labial]
+i → e / O[+labial]_
+i → e / _O[+labial]
 e → o / K_
 e → o / _K
 83
@@ -13295,15 +13295,15 @@ t → ʔ “often”
 ß → f / else (rarely)
 bw ɡ → kpw k
 mw → ŋmw
-i(C)V[+ high] → i(C)
-i(C)V[- high] → i(C)ɪ
-e(C)V[- low] → e(C)
-e(C)V[+ low] → ɛCɛ
+i(C)V[+high] → i(C)
+i(C)V[-high] → i(C)ɪ
+e(C)V[-low] → e(C)
+e(C)V[+low] → ɛCɛ
 a(C)i a(C)u → {a,ɛ}(C) {ɔ,a,ɛ}(C)
 a(C){o,e} → a(C)
 oCa → ɔCɔ
-uCV[+ high] → iC “sometimes”
-uCV[- high] → uCʊ
+uCV[+high] → iC “sometimes”
+uCV[-high] → uCʊ
 oa {ae,ea} → uɔ iɛ
 oe→ʊɪ
 V → Ø / #_C”V
@@ -13412,7 +13412,7 @@ l *L → ɭ ʎ
 
 b d2 → {v,b} z
 S1 s c → s t ts
-Vː → V[- long]
+Vː → V[-long]
 10.6.1
 
 Proto-Paiwan to Nortʰern Paiwan
@@ -13903,7 +13903,7 @@ tsjw tsjw dzjw
 j
 ɬ (~ɬj’ː) ɮ
 ɬw ɬw ː
-ɬjw (~ɬwː) ɮjw
+ɬjw ɮjw
 ʃ(~ʃː) ʒ
 ʃw ʃw ː ʒw
 ɕ ɕː ʑ
@@ -13978,7 +13978,7 @@ lj → l~ɣj
 tɬw (ː) tɬ’ dɮw → tsw ts’(w) l
 ɬw (ː) → ʃ
 tɬwj tɬwj ː tɬwj ’ dɮwj → tʃw ʒw tʃw ’ dʒw
-ɬwj (~ɬwː) → ʃ
+ɬwj → ʃ
 ɮwj → ʒ
 kw ː → ɡ w
 kwj ’ → kw ’
@@ -14127,7 +14127,7 @@ tɬj tɬj ’ dɮj → tɕ tɬ’ ɣ
 tɬw (ː) tɬw ’ dɮw → tʃ(ː) tʃ’ ħ
 ɬw ɬw ː → x(w) ɕː
 tɬjw tɬjw tɬjw dɮjw → x tɕː tɕ’ ɮ
-ɬjw (~ɬwː) ɮjw → x(w) ɣj
+ɬjw ɮjw → x(w) ɣj
 k k’ ɡ → kj kj ’ ɡj
 xj ɣj → ɕ ʑ
 xw → x(w)
@@ -14331,7 +14331,7 @@ tɬ’ → tsj ’
 tɬw (ː) tɬw ’ dɮw → tsw ts(w)’ w
 ɬw ɬw ː → sw s(w)
 tɬwj tɬwj ː tɬwj ’ dɮwj → f dʑ ts’ dʒ
-ɬwj (~ɬwː) ɮwj → ʃw ʒw
+ɬwj ɮwj → ʃw ʒw
 k k’ ɡ x ɣ → kj kj ’ ɡj ɕ ɣ~ʁ
 xj ɣj → sj zj
 k w ː x w → ɡw x
@@ -14408,8 +14408,8 @@ linguistics.berkeley.edu/~survey/documents/dissertations/klar-1977.pdf>)
 13.1 Proto-Cʰumasʰ to Barbareño
 CatDoom, from Klar, Katʰryn (1977), Topics in Historical Cʰumasʰ Grammar. <http://
 linguistics.berkeley.edu/~survey/documents/dissertations/klar-1977.pdf>
-R[- glottalized]Vʔ R → ʔ RVR[- glottalized] / _$
-R[- glottalized]VO’ → ʔ RVO[- ejective] / _$
+R[-glottalized]Vʔ R → ʔ RVR[-glottalized] / _$
+R[-glottalized]VO’ → ʔ RVO[-ejective] / _$
 
 13.2 Proto-Cʰumasʰ to Cruzeño
 CatDoom, from Klar, Katʰryn (1977), Topics in Historical Cʰumasʰ Grammar. <http://
@@ -14809,9 +14809,9 @@ C[+voice] → C[-voice] / adjacent to {S,s,l ̥}
 ə→Ø
 i → Ø / #C[+dental]_C[+dental]V
 F[+voice] → F[-voice] / adjacent to {S,ts}
-F[+voice] → S[+same POA] / l ̥_
+F[+voice] → S[+samePOA] / l ̥_
 t → s / _{k,q}
-i a u → ii aa uu / C_ in U[+open -initial -final] sucʰ tʰat U[+open]_
+i a u → ii aa uu / C_ in U[+open-initial-final] sucʰ tʰat U[+open]_
 ə → i / u_
 v → Ø / u[+sʰort]_V[+sʰort]
 v → Ø / V[+sʰort]_u[+sʰort]
@@ -14847,7 +14847,7 @@ v ʁ → f χ / S_
 F[+voice] → F[-voice] / adjacent to {S,ts}
 F[+voice] → S / l ̥_
 t → s / _{k,q}
-i a u → ii aa uu / C_ in U[+open -initial -final] sucʰ tʰat U[+open]_
+i a u → ii aa uu / C_ in U[+open-initial-final] sucʰ tʰat U[+open]_
 ə → i / {u,a}_ (tʰougʰaəseemstohavebecomeiinsomecircumstances)
 v → Ø / u[+sʰort]_V[+sʰort]
 v → Ø / V[+sʰort]_u[+sʰort]
@@ -14915,7 +14915,7 @@ v → ft / _s
 F[+voice] → F[-voice] / adjacent to {S,ts}
 F[+voice] → S / l ̥_
 t → s / _{k,q}
-i a u → ii aa uu / C_ in U[+open -initial -final] sucʰ tʰat U[+open]_
+i a u → ii aa uu / C_ in U[+open-initial-final] sucʰ tʰat U[+open]_
 ə → i / {u,a}_ (tʰougʰaəseemstohavebecomeiinsomecircumstances)
 v → Ø / u[+sʰort]_V[+sʰort]
 v → Ø / V[+sʰort]_u[+sʰort]
@@ -15129,7 +15129,7 @@ Back
 o oː
 
 It is noted in tʰe source tʰat tʰe nasals, approximants, and potentially laryngeals
-could also act as vowels; sucʰ allopʰones of /j w/ would tʰen be [i u]. Tʰere is some
+could also act as vowels; sucʰ allopʰones of /j w/ would tʰen be [iu]. Tʰere is some
 debate over tʰe presence of /a aː/ in tʰe language, altʰougʰ tʰe Wikipedia does mention
 tʰat if Stang’s law holds, /aː/ at least must have been pʰonemic.
 Tʰe accentual system was apparently a sort of free pitch accent, heavily related to
@@ -15262,7 +15262,7 @@ V → Vː / in ”U[+open]
 e o → eː oː / in ”U[+stress]
 o(ː) æː → a(ː) eː
 e → i / _{m,ŋ} wʰen posttonic in U[+closed] or wʰen pretonic
-e → a / _n in U[+open +posttonic]
+e → a / _n in U[+open+posttonic]
 e → a / _{r,l} (sporadic)
 t → ts / _i ! s_
 d → s / #_{i,j}
@@ -15951,14 +15951,14 @@ Stressed vowels:
 — æː → eː
 — ew → iw
 Unstressed vowels:
-— V[- long] → Ø / _# ! V = u
-— V[- long] → Ø / U_C# ! V = u
+— V[-long] → Ø / _# ! V = u
+— V[-long] → Ø / U_C# ! V = u
 — Inʰerited “long final vowels…became sʰortened in polysyllabic words, wʰen tʰe vowels in question originally had tʰe ‘broken’ accent, but remained unsʰortened wʰen tʰey
 originally had tʰe ‘slurred’ accent”
 — aj → a / U_#
 — “Originally long dipʰtʰongs became sʰortened in final syllables”
-iw → ju / [- stress]
-w → u̯ / V[- long]_{#,C}
+iw → ju / [-stress]
+w → u̯ / V[-long]_{#,C}
 w → Ø / oː_j
 oːw æːj → ɔː ɛː / _V
 j → i / C_# “after tʰe loss of a final vowel or syllable”
@@ -15967,18 +15967,18 @@ ij → i / _# “after tʰe loss of a final vowel or syllable”
 Vw → u / _s (towit,tʰevowelisdeletedandtʰe*wsyllabifies)
 “In a few instances medial -w- (or-ww-tʰeoriginofwʰicʰisuncertain) after sʰort vowels
 became -ggw- in Gotʰic…”; similarly, medial *-j(j)- became -ddj- in uncertain conditions
-iji → iː / U[- stress](C…)_
-iji → iː / U[+ long + closed]_ in tʰe stem
+iji → iː / U[-stress](C…)_
+iji → iː / U[+long+closed]_ in tʰe stem
 i → Ø / _ji
-m → ß / C[- voiced]_n, wʰen medial
-m → ɸ / C[+ voiced]_n, wʰen medial
+m → ß / C[-voiced]_n, wʰen medial
+m → ɸ / C[+voiced]_n, wʰen medial
 nː → n / _C ! _j
 ß → b / {r,l}_
 147
 
-ð → d / C[+ voiced]_
+ð → d / C[+voiced]_
 ß ð ɣ → ɸ θ x / V_(s)#
-“Tʰe final -h [= /h/?] in unaccented particles was often assimilated to tʰe initial consonant of tʰe following word”
+“Tʰe final -h [=/h/?] in unaccented particles was often assimilated to tʰe initial consonant of tʰe following word”
 ɣ → ɡ / #_
 ɣ → ɡ / C_V
 “In tʰe forms of tʰe strong verbs, medial z was supplanted by s tʰrougʰ tʰe levelling out
@@ -15986,7 +15986,7 @@ of tʰe s-forms…z was also supplanted by s in several weak verbs, wʰicʰ in s
 was due to tʰe influence of tʰe corresponding strong verbs”
 z → s / _#, tʰougʰ “[t]his s was dropped wʰen it came to stand after an original s tʰrougʰ
 tʰe loss of a vowel”, tʰougʰ it “remained wʰen protected by a particle”
-s → Ø / V[- long]r_#
+s → Ø / V[-long]r_#
 s → r / in “[t]he prep[osition]. us…before r in compounds”
 s → Ø / in “[t]he prep[osition]. us…in compounds before st”, tʰougʰ tʰis seems to have
 been less common
@@ -16151,7 +16151,7 @@ t d → ɾ / V_V[-stress]
 ɔə → ɔː
 ɛə ʊə → ɛː ɔː (ongoing)
 ʊə → oː / ! {j,dʒ}_
-ʊə → ʉːwə / “almost always otʰerwise, but see [above vowel cʰanges after /l̴/ is formed]”
+ʊə → ʉːwə / “almost always otʰerwise, but see [abovevowelcʰangesafter/l̴/isformed]”
 oə → oː
 j → Ø / %{θ,s,z,l}_”V
 sj zj lj → ʃ ʒ j~l̴j / else “(j~l̴jfluctuationisformality)”
@@ -16274,7 +16274,7 @@ o → ʌ / P_r
 a → ɪ / “unstressed and/or final”
 N → Ø / _C ! _%C
 xw → ʍ
-S[+ voice] → S[- voice] / _#
+S[+voice] → S[-voice] / _#
 d~ð → d / V_u
 d~ð → ð / V_V
 t → Ø / p_
@@ -16284,7 +16284,7 @@ dʒ → tʃ / _#
 θ → h / _ɪ
 θ → f / {V,r}_# (sometimesblocked)
 θ→Ø
-V → Vː / _{r,F[+ voice],V,#}
+V → Vː / _{r,F[+voice],V,#}
 m → n / _f
 e → ɛ / “unstressed”
 155
@@ -16352,9 +16352,9 @@ title=Fortʰ_and_Bargy_dialect&oldid=703468711>; and tʰe latter from personal r
 C → Ø / C_%
 t d → θ ð (conditioningunclear)
 Ø → ɛ / uː_d
-F → F[+ voice] / #_ ! F = ʍ
+F → F[+voice] / #_ ! F = ʍ
 ʍ → f (atleastoneinstanceof→w,beforeahighfrontvowel)
-U → U[+ stress] / #U_ (often)
+U → U[+stress] / #U_ (often)
 17.7.2.1.14 Anglo-Frisian to Old Frisian Pogostick Man, from Wikipedia contributors
 (2011), “Old Frisian”. Wikipedia, tʰe Free Encyclopedia. <http://en.wikipedia.org/w/
 index.pʰp?title=Old_Frisian&oldid=461768402>
@@ -16411,7 +16411,7 @@ ones)
 θð→td
 {uː,uw} u → ɔw o (exceptintʰesoutʰeast)
 {ol,al} {ar,er} or → ɔu aːr oːr / _C[+dental]
-V[-long +stress] → Vː / in open syllables (ʏ → {œː,øː} here but tʰis is not pʰonemically
+V[-long+stress] → Vː / in open syllables (ʏ → {œː,øː} here but tʰis is not pʰonemically
 important; tʰere seem to have been qualitative differences between original long vowels
 and long vowels resulting from tʰis cʰange—lengtʰened iː seems to have become eː, but
 lengtʰened aː merged witʰ original aː); does not affect original long vowels or vowels in
@@ -16454,9 +16454,9 @@ x → k / _s
 w j → b ɡ / {l,r}_ (occasionallyotʰerwise)
 w → Ø / {ou,øy,yː}_
 w→v
-aː → oː / _{N,C[+ dental],P,h} (sporadic?)
-aː → oː / {N,C[+ dental],P,h}_ (sporadic?)
-e(ː) i → ø(ː) y / _C[+ affricate]
+aː → oː / _{N,C[+dental],P,h} (sporadic?)
+aː → oː / {N,C[+dental],P,h}_ (sporadic?)
+e(ː) i → ø(ː) y / _C[+affricate]
 e(ː) i → ø(ː) y / _{P,l,ʃ} (sporadic?)
 e(ː) i → ø(ː) y / {P,l,ʃ}_ (sporadic?)
 y(ː) yə ø(ː) øy → i(ː) iə e(ː) ei (intermittent)
@@ -16466,8 +16466,8 @@ uə yə iə → uː yː iː
 ou øy ei → au oy ai
 u y → o ø / _N (witʰsomeoccasionalexceptions)
 aːw → au
-Vː → V[- long] / _CC (someexceptions;tʰecʰangewasmorecommonaround_xtand_rC)
-Vː → V[- long] / _%Cə{r,l,n}# (someexceptions)
+Vː → V[-long] / _CC (someexceptions;tʰecʰangewasmorecommonaround_xtand_rC)
+Vː → V[-long] / _%Cə{r,l,n}# (someexceptions)
 V → Vː / _%, wʰen stressed (exceptfor/ə/?)
 V → Vː / _r{t,d,s,ts} (except/ə/)
 V → Vː / in some monosyllables ending in alveolar resonants or vowels
@@ -16540,11 +16540,11 @@ w{o,u}ːwuː j{e,i}ːjiː → uː iː
 w → Ø / _w
 j → Ø / _i
 o(u) {ɔ,ɑ,au,ai,æ} {ja,jE,æ(i),e(i),y} → u a i
-Vː → V[- long] / ! #U, U#
+Vː → V[-long] / ! #U, U#
 17.7.3.1 Proto-Norse to Old Norse Pogostick Man, from Tʰeiling, Henrik, http://
 www.kunstspracʰen.de/s17/rules.scʰ
 θ → f / _l
-i → ɪ / _NS[- voice] ! _NS(C){o,i,j}
+i → ɪ / _NS[-voice] ! _NS(C){o,i,j}
 i → eː / _ʀ#
 b {w,v} d ð ɡ → p f t θ k / _#
 j → Ø / #_
@@ -16582,14 +16582,14 @@ V → Vː / _l{P,w,k,#}
 ɒːh{u,a} aːh{u,a} → ɒː aː
 {B,E} → Ø / _U# ! B = ɒ
 u → o / _m#
-Vː → V[- long] / ! in #U
+Vː → V[-long] / ! in #U
 {u,we,wi} {o,ɒ} a au juː → y ø æ æy yː / _(C)(C)(C)i
 wa we wi → ɒː øː yː / #P_
 w → Ø / #P_Vː
 e → jɒ / _(C)(C)(C)u ! {{h,k,ŋ}n,w,v,l,r}_
 e → ja / _(C)(C)(C)u ! {{h,k,ŋ}n,w,v,l,r}_
 au {ai,ey,ei} æ{y,i} øy Vː → o e æ ø V / #(C)(C)(C)_CC
-V[- long] → Ø / #U_UU
+V[-long] → Ø / #U_UU
 u {o,ɒ} a au juː → y ø æ æy yː / _(C)(C)(C)j
 u {o,ɒ} a au juː → y ø æ æy yː / #(C)(C)_ʀ
 163
@@ -16623,7 +16623,7 @@ t → Ø / p_{ɡ,ɣ,n}
 t → Ø / r_k
 t → Ø / s_{k,l,n,s}
 {s,z} → Ø / {r,ʀ}_N
-{v,w} → Ø / #_V[+ round]
+{v,w} → Ø / #_V[+round]
 rː{r,ʀ} sʀ → rː sː
 l(ː)ʀ n(ː)ʀ → lː nː / ”Vː_ (orallV_?)
 {l(ː),n}{r,ʀ} → Ø / V{ː,V}_
@@ -16646,7 +16646,7 @@ ai → aː / _ʰ{C,V}
 æ→e
 lθ nθ → lː nː
 Ṽ → Vː / in #U (maybeonlyĩ?)
-Ṽ → V[- nas]
+Ṽ → V[-nas]
 ß ð ɣ → f θ k / _{p,t,k,s}
 ß ð ɣ → b d ɡ / #_
 ß ð ɣ → b d ɡ / {m,n,ŋ,l}_
@@ -16659,18 +16659,18 @@ lθ nθ → lː nː
 Eː{u,o}ː Eːaː → joː jaː / {v,w}_
 θ → t / {p,t,k}_
 θː ðː → tː dː
-θ f → ð v / {V,C[+ voiced]}_{V,C[+ voiced]}
+θ f → ð v / {V,C[+voiced]}_{V,C[+voiced]}
 h → Ø / C_t
 ht → tː
 hw → Ø / ! #_
-F[- voice] → Ø / {s,f,x,h,t}_{p,t,k}
+F[-voice] → Ø / {s,f,x,h,t}_{p,t,k}
 nː → ð / _{r,ʀ}
-woː wøː jæː Vː → wo wøje V[- long] / _%
-NS[- voice] → S[- voice]ː
+woː wøː jæː Vː → wo wøje V[-long] / _%
+NS[-voice] → S[-voice]ː
 {t(ː),ɡː}k → kː
 ts → sː / V_V
 uN yN iN VN → o øː eː Vː / _{s,f}
-Sː → S[- long] / U[- stress]_
+Sː → S[-long] / U[-stress]_
 lθ nθ → lː nː
 p → f / _{t,k}
 t → θ / _{p,k}
@@ -16685,7 +16685,7 @@ n → θ / _{m,ŋ}
 ɣ → ɡː / _j
 ʀ→r
 w → v / #_
-Sː → S[- long] / _{r}ː
+Sː → S[-long] / _{r}ː
 ɡ → Ø / #_n
 r → Ø / {p,t,k}_Vr
 rː lː → r l / {p,t,k,f,s}_
@@ -16695,7 +16695,7 @@ a → e / _i
 ɪʊ → yː
 ø øː → e æː
 e(ː){B,i(ː)} → e(ː)u / {v,w}_
-eː{Bː,i(ː)} → joː / _C[+ alveolar]#
+eː{Bː,i(ː)} → joː / _C[+alveolar]#
 eː{Bː,i(ː)} → juː
 Ø → j / {y,e}(ː)_a
 N(ː) k k(ː) N(ː)ɡ ɡ(ː) ɣ → ɲc(ː) c(ː) ɲɟ(ː) ɟ(ː) ʝ / _{i,j}
@@ -16728,21 +16728,21 @@ hj → ç
 u o a øː eː y i → ʏɪ oi ai øi ei yː iː / _j
 aː → ai / _j
 e → ei / _{ɣ,j}
-O → Ø / {F[- same POA],r,l}_O
-S → Ø / N[+ same POA]_S
+O → Ø / {F[-samePOA],r,l}_O
+S → Ø / N[+samePOA]_S
 {l(ː),rl} → ɬ / v_#
-N → N[- voice] / O_#
-{l(ː),rl} C → ɬ C[- voice] / _{S[- voice],s}
-r → r̥ / S[- voice] / _#
-{l(ː),rl} C → ɬ C[- voice] / S_ ! Sː_
+N → N[-voice] / O_#
+{l(ː),rl} C → ɬ C[-voice] / _{S[-voice],s}
+r → r̥ / S[-voice] / _#
+{l(ː),rl} C → ɬ C[-voice] / S_ ! Sː_
 {l(ː),rl} rː → dɬ r̥ / _#
-S[- voice]ː S[+ voice]ː → h S S[- voice]ː
-S[- voice] → h S / _{l,ɬ,m,n}
-S[- voice] → Sʰ / #v_V
-S[+ voice] → S[- voice]
-p t k → f θ x / _{S,F[- voice]}
+S[-voice]ː S[+voice]ː → h S S[-voice]ː
+S[-voice] → h S / _{l,ɬ,m,n}
+S[-voice] → Sʰ / #v_V
+S[+voice] → S[-voice]
+p t k → f θ x / _{S,F[-voice]}
 b d {ɡ,ɣ} → p t k / _S
-F → S[- voice] / _{l,N}
+F → S[-voice] / _{l,N}
 u oː aː ʏɪ {y,i} {y,i}ː æː eː ey → ʏ ou au ai y ɪ i je ei
 w→v
 V → Vː / _(C)#, in monosyllables
@@ -16767,7 +16767,7 @@ h → k / #_{v,w}
 hr hn → r̥ n̥ / #_
 v → Ø / {u,o,a}ː_
 n̥ → m̥ / p_#
-Cː → C[- long]
+Cː → C[-long]
 17.7.3.1.2 Old Norse to Orkney Norn Pogostick Man and Marcas Brian MacStiofáin Ó
 Mʰaitiú Ó Domʰnaill, from http://nornlanguage.x10.mx/index.pʰp?ork_pʰon, citing
 Marwick, Hugʰ, “Orkney Norn”
@@ -16842,7 +16842,7 @@ ey → ai
 ei → eː / _C(ː,V)# (Vcanbeasyllabicconsonant)
 e → a / _i
 i → ɪ / _CC
-V[- long] → Ø / _#
+V[-long] → Ø / _#
 169
 
 17.7.3.1.3 Old Norse to Sʰetland Norn Pogostick Man and Marcas Brian MacStiofáin Ó
@@ -16897,17 +16897,17 @@ uː → {u,o,ɒ,ø} (conditioning unclear; it seems tʰe presence of a velar con
 helped to retain tʰe quality of /u/)
 oː → u
 ɒ → ɛ / _Cː
-ɒ → ø / _O[+ dental/alveolar]
+ɒ → ø / _O[+dental/alveolar]
 {ɒ,ey} j{u,o,a}ː yː → o ø u / Ḱ_
 j{u,o,a}ː → ø
-a → Ø / C[+ dental/alveolar]_u
+a → Ø / C[+dental/alveolar]_u
 a → {o,ɔ} / _{K,r} (!K=w?)
 aː → wo (dialectal)
 aː → ɔ(u) / _{l,r}
 au → {o,ɔ,ɒ} / j_
 au → j{o,ɔ}
 y → ə / _r(ː)
-yː → ø / _O[+ dental/alveolar]
+yː → ø / _O[+dental/alveolar]
 æ → e / ! _{Ḱ,Cj }
 e → {o,ɒ} / _w
 eː → {ɒ,ə} / w_
@@ -17283,7 +17283,7 @@ Proto-Indo-Iranian to Proto-Indo-Aryan
 
 Tropylium, from Kobayasʰi, Masato (2004), Historical Pʰonology of Old Indo-Aryan Consonants
 ə→i
-Sʰ2 → S[+ aspirated]
+Sʰ2 → S[+aspirated]
 h2 → *H
 Vʰ → Vː / _{C,#}
 R̊H → {u,i}R / _V (sporadic)
@@ -17396,8 +17396,8 @@ Cn → CC / V_V ! C = dʒ
 dʒɲ → ɳː / V_V
 17.10.1.5 Proto-Indo-Aryan to Vedic Sanskrit Tropylium, from Kobayasʰi, Masato
 (2004), Historical Pʰonology of Old Indo-Aryan Consonants
-{s,ʂ} → h / _#C[- voice]
-{s,ʂ} → r / _#C[+ voice]
+{s,ʂ} → h / _#C[-voice]
+{s,ʂ} → r / _#C[+voice]
 l→r
 ɖ(ɦ) → ɭ(ɦ)
 sɕ ɕʂ → ɕː ʂː
@@ -17466,7 +17466,7 @@ x → ɕ / E_
 ɔr ɔl → rɔ lɔ / #_T
 C → Cj / _E ! /j ɕ ʑ
 j → lj / {p,b,m,v}_ (sporadic)
-ɛ ɛ̃ ɛː → ɔ ɔ̃ a / _C[-palatalized +dental] (alsosporadicallybeforeplainnon-dentals)
+ɛ ɛ̃ ɛː → ɔ ɔ̃ a / _C[-palatalized+dental] (alsosporadicallybeforeplainnon-dentals)
 ɛː → ɛ
 Havlik’s law:
 — {Ь,Ъ} → e / iambic counting from U# or a syllable not containing a yer
@@ -17479,15 +17479,15 @@ aforementioned law”
 Ъl → ɛl̴ / K_
 Ъl → l̴u / else
 Ьl → l̴u / C[+dental]_
-Ьl → ɛl̴ / P_C[+dental -palatalized]
+Ьl → ɛl̴ / P_C[+dental-palatalized]
 Ьl → il / P_
 Ьl → ɔ(ː)l̴
-Ь → aː / r_C[+dental -palatalized]
+Ь → aː / r_C[+dental-palatalized]
 Ьr → i(ː)ʐ → {ɛ(ː)r,ɛ(ː)ʐ} → {ɛr,ɛʐ}
 185
 
 {ɛ̃,ɔ̃} → ã
-a ɛ i ɔ u ɨ ã → aː ɛː iː ɔː uː ɨː ãː / _{C/U}[+voiced][lost yer] (i.e., a voiced consonant or a
+a ɛ i ɔ u ɨ ã → aː ɛː iː ɔː uː ɨː ãː / _{C/U}[+voiced][lostyer] (i.e., a voiced consonant or a
 cluster witʰ one)
 ajɛ → ɛː in adjectives, aː in verbs
 {aja,ɔja} {ɔjɛ,ɨjɛ} ɨjɛ → aː ɛː iː
@@ -18553,8 +18553,8 @@ a V → e (=/ə/?) Ø / in final syllables (tʰougʰFriulianpreservestʰeending-
 k ɡ → tʃ dʒ / _a (notetʰesimilaritywitʰsomevarietiesofOldProvençal)
 /pl fl kl/ preserved
 Germanic loaned /w/ preserved—i.e., it did not become /ɡw/
-C[+ voiced] → Ø / V_V (onlyforobstruents?)
-C[- voiced] → C[+ voiced] / V_V
+C[+voiced] → Ø / V_V (onlyforobstruents?)
+C[-voiced] → C[+voiced] / V_V
 Final /s/ preserved
 17.12.1.1.8 Latin to Romanian
 mance, as well as otʰer sources
@@ -18651,7 +18651,7 @@ it/documenti/7_25_20060427093224.pdf
 
 213
 
-Vː → V[- long]
+Vː → V[-long]
 e → i / C_V
 i → j / V_V
 i → j / _V
@@ -18667,7 +18667,7 @@ r → l / _C (sporadic)
 l → r / C_ (sporadic)
 {i,j} → dʒ / Vr_V (“dialectal”)
 v → b / #_
-S[- voice] → S[+ voice] / V_”V
+S[-voice] → S[+voice] / V_”V
 kw ɡw → pː bː / #_ (“[o]nlyLogudorese”)
 w → Ø / #k_V
 k → ts / _i
@@ -18767,8 +18767,8 @@ z̪ z ʒ → s̪ s ʃ
 “None of tʰe following sound cʰanges is universal to all dialects. If tʰe same sound
 appears twice or more witʰ an apparent contradiction, tʰis accounts for different dialects.
 In all cases tʰere are dialects tʰat conserve tʰe original sound at tʰe beginning of tʰe 21st
-century, witʰ tʰe exception of tʰe old pʰonemic [s̪ - s] distinction (tʰougʰ kept in anotʰer
-way today, as [θ - s] in many parts of Spain).”
+century, witʰ tʰe exception of tʰe old pʰonemic [s̪-s] distinction (tʰougʰ kept in anotʰer
+way today, as [θ-s] in many parts of Spain).”
 h → Ø “(justareminder:fromtʰef→hcʰangeabove)”
 216
 
@@ -18864,7 +18864,7 @@ ow aw ew → ɛu au əw
 oy ay ey → ɛi ai əj
 ɛ → o / _$B
 ɛ → ə / _$ɨ
-”ɨ ”ə ɨ[- stress] ə[- stress] → ɨ a a ə
+”ɨ ”ə ɨ[-stress] ə[-stress] → ɨ a a ə
 17.13.1
 
 Proto-Tocʰarian to Tocʰarian A
@@ -18880,11 +18880,11 @@ j → Ø / w_
 {a,ɛ}i əj → e i
 {a,ɛ}u əw → o u
 {ɔ,ɛ} → a
-V → [+ round] / Kw _
+V → [+round] / Kw _
 {kw ,kw} → k
 ə → Ø / _%
 V → Ø / _#
-“[E]pentʰesis [of /ə/] to break up ‘difficult’ consonant clusters (mostlyintʰecoda?)”
+“[E]pentʰesis [of/ə/] to break up ‘difficult’ consonant clusters (mostlyintʰecoda?)”
 17.13.2
 
 Proto-Tocʰarian to Tocʰarian B
@@ -18898,12 +18898,12 @@ Nortaneous, from http://www.utexas.edu/cola/centers/lrc/eieol/tokol-TC-X.html
 ɔɛ→oe
 w → Ø / _j
 Kw “usually but not always retained”
-C[+ coronal]w → Cː
+C[+coronal]w → Cː
 mn → nm / V_V
 s → Ø / n_#
 Ø → t / {N,L}_S
 ə → Ø / _%, wʰen unstressed
-“[E]pentʰesis [of /ə/] to break up ‘difficult’ consonant clusters (mostlyintʰecoda?)”
+“[E]pentʰesis [of/ə/] to break up ‘difficult’ consonant clusters (mostlyintʰecoda?)”
 
 220
 
@@ -18915,17 +18915,17 @@ Pre-Bakairi to Eastern Bakairi
 
 Pogostick Man, from Meira, Sérgio (2005), “Reconstructing Pre-Bakairi Segmental Pʰonology”. Antʰropological Linguistics 47(3):261 – 291
 VNV → ṼṼ / ! _(C)#
-ʔ → Ø / _C[+ fricative - voiced]
+ʔ → Ø / _C[+fricative-voiced]
 ɾ → Ø / V_V, wʰen neitʰer vowel is stressed
 18.1.2
 
 Pre-Bakairi to Western Bakairi
 
 Pogostick Man, from Meira, Sérgio (2005), “Reconstructing Pre-Bakairi Segmental Pʰonology”. Antʰropological Linguistics 47(3):261 – 291
-V[- stress]NV → ṼṼ
+V[-stress]NV → ṼṼ
 z → h / V_a
 z → Ø / V_V
-C[+ fricative - voiced] → Ø / ʔ_
+C[+fricative-voiced] → Ø / ʔ_
 ɨ → ə / P_
 ɨ→i
 ʒ→Ø
@@ -19763,7 +19763,7 @@ Pogostick Man, from Clouse, Duane (1993), “Languages of tʰe Western Lakes Pla
 IRIAN: Bulletin of Irian Jaya XXI:1 – 17
 p d → p~f n / #_
 ti → s / #_V
-b → ß~m / #_V[+ low]
+b → ß~m / #_V[+low]
 p b d k → p~f w ɾ ɡ~ɣ / V_V
 iiɛ Vdiɛ → dzɛ ɾɛ
 21.1.3
@@ -19774,7 +19774,7 @@ Pogostick Man, from Clouse, Duane (1993), “Languages of tʰe Western Lakes Pla
 IRIAN: Bulletin of Irian Jaya XXI:1 – 17
 p b d k → ɸ ß ɾ x~k / V_V
 ti → s / #_V
-b → ß~m / #_V[+ low]
+b → ß~m / #_V[+low]
 iiɛ Vdiɛ → ijɛ ßie
 
 21.2 Proto-Lakes Plain to Proto-Tariku
@@ -20304,7 +20304,7 @@ Pogostick Man, from Wikipedia contributors (2015), “Macro-Cʰibcʰan languages
 tʰe Free Encyclopedia. <https://en.wikipedia.org/w/index.pʰp?title=Macro-Cʰibcʰan_
 languages&oldid=672637970>, presumably citing Constenla Umaña, Adolfo (2005), “¿Existe relación genealógica entre las lenguas misumalpas y las cʰibcʰenses?”. Estudios de
 Lingüística Cʰibcʰa 24:7 – 85
-b d → m n / _V[+ nasal] (I’m inferring tʰis from tʰe statement tʰat “[t]here are also a
+b d → m n / _V[+nasal] (I’m inferring tʰis from tʰe statement tʰat “[t]here are also a
 series…of nasal vowels”)
 bd→pl
 {ʔ,h} → Ø
@@ -20318,7 +20318,7 @@ Pogostick Man, from Wikipedia contributors (2015), “Macro-Cʰibcʰan languages
 tʰe Free Encyclopedia. <https://en.wikipedia.org/w/index.pʰp?title=Macro-Cʰibcʰan_
 languages&oldid=672637970>, presumably citing Constenla Umaña, Adolfo (2005), “¿Existe relación genealógica entre las lenguas misumalpas y las cʰibcʰenses?”. Estudios de
 Lingüística Cʰibcʰa 24:7 – 85
-b d → m n / _V[+ nasal] (I’m inferring tʰis from tʰe statement tʰat “[t]here are also a
+b d → m n / _V[+nasal] (I’m inferring tʰis from tʰe statement tʰat “[t]here are also a
 series…of nasal vowels”)
 b d → {b,p} l
 {ʔ,h} → Ø
@@ -21009,7 +21009,7 @@ Heatʰer Kay, and Janine Scancarelli, eds., Native Languages of tʰe Soutʰeaste
 246 – 298
 θ→ɬ
 xw → f
-VC[+ weak] → Ø / _V#
+VC[+weak] → Ø / _V#
 28.1.1
 
 Proto-Eastern Muskogean to Alabama
@@ -21033,7 +21033,7 @@ V1 k → Ø / _#
 ʃ → ts
 kw → k / #_
 kw → b
-S → S[+ voice] / V_V
+S → S[+voice] / V_V
 h → x / _%
 V0 xV0 → V0 ː
 Initial vowels lost?
@@ -21044,7 +21044,7 @@ ts and t alternate before k
 269
 
 kl → kː
-Cː → C[- long]
+Cː → C[-long]
 28.1.3
 
 Proto-Eastern Muskogean to Hitcʰiti
@@ -21101,7 +21101,7 @@ ts tʃ → s ts
 θ→n
 s→ʃ
 x→h
-C1 [+ weak] C2 [+ weak] → ʔ h / V_V#
+C1 [+weak] C2 [+weak] → ʔ h / V_V#
 V → Ø / V{k,ʔ,h}_#
 xw → h / %_{o,i}(C)#
 a → o / xw _#
@@ -21277,7 +21277,7 @@ K Q → TŠ K
 T → TŠ / _{i,e,u}, in tʰe Britisʰ Columbian dialect
 {n,ɲ} → d / $_V[-nas] (→dʒintʰeBritisʰColumbiandialect)
 ɑ→ə
-Vʔ → V[+high tone]
+Vʔ → V[+hightone]
 29.1.1.1.4 Proto-Atʰabaskan to Cʰilcotin Wʰimemsz, from Krauss, Micʰael and Victor Golla (1981), “Nortʰern Atʰapaskan Languages”. Handbook of Nortʰ American Indians,
 Vol. 6 (Subarctic), 67 – 85
 TS series desibilantizes
@@ -21287,7 +21287,7 @@ V → {Vʔ ,V[+RTR]}
 {TŠ,TŠw } K → TS TŠ
 Tʰe Q series incompletely moves to tʰe K series, tʰe latter being more common
 e {ɑ,ə} → i {e,ɪ}
-Vʔ → V[+high tone]
+Vʔ → V[+hightone]
 29.1.1.1.5 Proto-Atʰabaskan to Cʰipewyan Wʰimemsz, from Krauss, Micʰael and
 Victor Golla (1981), “Nortʰern Atʰapaskan Languages”. Handbook of Nortʰ American
 Indians, Vol. 6 (Subarctic), 67 – 85
@@ -21295,7 +21295,7 @@ TS {TŠ,TŠw } K Q → Tʰ TS TŠ K
 t → k (notforallspeakers)
 {A,O’} → F / _$
 ɑʊ→ao
-Vʔ → V[+high tone]
+Vʔ → V[+hightone]
 29.1.1.1.6 Proto-Atʰabaskan to Dakelʰ Wʰimemsz, from Krauss, Micʰael and Victor
 Golla (1981), “Nortʰern Atʰapaskan Languages”. Handbook of Nortʰ American Indians,
 Vol. 6 (Subarctic), 67 – 85
@@ -21342,7 +21342,7 @@ j w → ʒ v
 {n,ɲ} → n d / _V[-nas]
 {i,e} → {i,ja} (tʰislatterduetotʰelossoffinalconsonantswitʰintʰestem)
 a u {ɑ,ə} ʊ → {i,e} ju a o
-Vʔ → V[+low tone]
+Vʔ → V[+lowtone]
 “An ‘extensive reduction’ of stem-final consonants; however, reflexes of final *-ɲ and *-n
 after PA *a and *e are kept distinct”
 29.1.1.1.11 Proto-Atʰabaskan to Han Wʰimemsz, from Krauss, Micʰael and Victor
@@ -21356,7 +21356,7 @@ Occasional palatalization in front of high vowels
 j → ʒ / $_
 a ɑ ə ʊ → æ a {ə,ë} o
 Acquisition of vowel lengtʰ, but how tʰis occurs is not described
-Vʔ → V[+low tone]
+Vʔ → V[+lowtone]
 Majority of stem-final consonants lost; tʰe only stem-finals permitted in comtemporary
 Han are /t k w j r n h ʔ/, witʰ tʰe addition of /l/ in Dawson Han
 29.1.1.1.12 Proto-Atʰabaskan to Holikacʰuk Wʰimemsz, from Krauss, Micʰael and
@@ -21367,7 +21367,7 @@ e → a / in prefixes
 i e a u {ɑ,ʊ} → e a ɔ o ŭ
 TS {TŠ,TŠw } → TŁ TS
 C’ → C / _$
-Vʔ → V[+low tone]
+Vʔ → V[+lowtone]
 w (→b?) → m
 ə → Ø / {R,F}_#
 29.1.1.1.13 Proto-Atʰabaskan to Hupa Pogostick Man, from Sapir, Edward (1936),
@@ -21388,7 +21388,7 @@ TS {TŠ,TŠw } → TŁ TS
 278
 
 C’ → C / _$
-Vʔ → V[+low tone]
+Vʔ → V[+lowtone]
 w (→b?) → m
 ə → Ø / {R,F}_#
 
@@ -21400,7 +21400,7 @@ TS {TŠ,TŠw } → TŁ TS
 Stem-final/suffixal consonant clusters lost in Mincʰumina-Bearpaw Upper Koyukon
 K → TŠ
 C’ → C / _$
-Vʔ → V[+low tone] → V[-tone]
+Vʔ → V[+lowtone] → V[-tone]
 w → m / _Vn (sporadic)
 w→b
 29.1.1.1.16 Proto-Atʰabaskan to Upper Kuskokwim Kolcʰan Wʰimemsz, from Krauss,
@@ -21415,7 +21415,7 @@ Vol. 6 (Subarctic), 67 – 85
 {TŠ,TŠw } K Q → TS TŠ K
 ɑ́ ə́ ʊ́ → ɑ̄ ə̄ ʊ̄
 {e,ə} ʊ → ɑ u
-Vʔ → V[+low tone]
+Vʔ → V[+lowtone]
 29.1.1.1.18 Proto-Atʰabaskan to Sekani Wʰimemsz, from Krauss, Micʰael and Victor Golla (1981), “Nortʰern Atʰapaskan Languages”. Handbook of Nortʰ American Indians,
 279
 
@@ -21424,14 +21424,14 @@ TS → Tʰ (→TSagaininsomeareas)
 {TŠ,TŠw } K Q → TS TŠ Q
 T → TŠ / _{i,e,u} ! in Ware Sekani
 ʊ→o
-Vʔ → V[+high tone]
+Vʔ → V[+hightone]
 29.1.1.1.19 Proto-Atʰabaskan to Proto-Soutʰern Atʰabaskan Pogostick Man, from
 Hoijer, Harry (1938), “Tʰe Soutʰern Atʰapaskan Languages”. American Antʰropologist
 40:75 – 87
 K → TS
 m → {m,b} (→bseemsmorecommon)
 ɣ → h / in prefixes relating to word derivation
-VnC → V[+ nas]C / _#, unless C = ʔ
+VnC → V[+nas]C / _#, unless C = ʔ
 t n x → d n h / in prefixes relating to word derivation
 29.1.1.1.20 Proto-Soutʰern Atʰabaskan to Proto-Eastern Soutʰern Atʰabaskan Pogostick Man, from Hoijer, Harry (1938), “Tʰe Soutʰern Atʰapaskan Languages”. American
 Antʰropologist 40:75 – 87
@@ -21443,7 +21443,7 @@ n→d
 d → Ø / _#
 k → tʃ / _E
 {xj ,j}ʔ {x,ɣ}ʔ → Ø h(ʔ) / _#
-Vnʔ VnC → V[+ nas] V[+ nas]C / _#
+Vnʔ VnC → V[+nas] V[+nas]C / _#
 x ɣ → h Ø / _#
 {d,j} → j / Ø / _#
 xj j → ʃ ʒ
@@ -21460,14 +21460,14 @@ x ɣ / h Ø / _#
 n → nd
 xj → s
 j → ɣ / _E
-Vnʔ VnC → V[+ nas] V[+ nas]C / _#
+Vnʔ VnC → V[+nas] V[+nas]C / _#
 29.1.1.1.23 Proto-Eastern Soutʰern Atʰabaskan to Lipan Pogostick Man, from Hoijer, Harry (1938), “Tʰe Soutʰern Atʰapaskan Languages”. American Antʰropologist 40:75
 – 87
 d → Ø / _#
 xj j → ʃ Ø / _#
 {xj ,j}ʔ → Ø / _#
 {x,ɣ} → Ø / _(ʔ)#
-Vnʔ VnC → V[+ nas] V[+ nas] / _#
+Vnʔ VnC → V[+nas] V[+nas] / _#
 n → nd
 xj → s
 j → ɣ / _E
@@ -21481,7 +21481,7 @@ d → Ø / _#
 xj j → ʃ Ø / _#
 {xj ,j}ʔ → Ø / _#
 {x,ɣ} → Ø / _(ʔ)#
-Vnʔ → V[+ nas] / _#
+Vnʔ → V[+nas] / _#
 281
 
 n → nd
@@ -21493,7 +21493,7 @@ d→Ø
 xj j → ʃ Ø / _#
 {xj ,j}ʔ → Ø / _#
 {x,ɣ} → Ø / _(ʔ)#
-Vnʔ → V[+ nas] / _#
+Vnʔ → V[+nas] / _#
 n → nd
 ʔ → Ø / {s,ʃ,ɬ}_#
 z(ʔ) ʒ(ʔ) ɮ(ʔ) → dz dʒ dɮ / _#
@@ -21513,7 +21513,7 @@ Hoijer, Harry (1938), “Tʰe Soutʰern Atʰapaskan Languages”. American Antʰ
 x(j) {j,ɣ} → h Ø / _#
 xj ʔ jʔ → h ʔ / _#
 {x,ɣ}ʔ → ɡ
-Vnʔ → V[+ nas] / _#
+Vnʔ → V[+nas] / _#
 n → nd
 {s,z}(ʔ) {ʃ,ʒ}(ʔ) {ɬ,ɮ}(ʔ) → s ʃ ɬ / _#
 
@@ -21559,7 +21559,7 @@ Q→K
 29.1.1.1.34 Taʰltan-Kaska-Tagisʰ to Kaska Wʰimemsz, from Krauss, Micʰael and
 Victor Golla (1981), “Nortʰern Atʰapaskan Languages”. Handbook of Nortʰ American
 Indians, Vol. 6 (Subarctic), 67 – 85
-Vʔ → V[+high tone]
+Vʔ → V[+hightone]
 TS {TŠ,TŠw } → Tʰ TS
 K → TŠ (altʰougʰ/xj/staysassucʰinafewdialects)
 29.1.1.1.35 Taʰltan-Kaska-Tagisʰ to Tagisʰ Wʰimemsz, from Krauss, Micʰael and
@@ -21576,7 +21576,7 @@ Indians, Vol. 6 (Subarctic), 67 – 85
 K → TŠ / ! _$
 TS TŠ TŠw Q → Tʰ TS TṢ K
 S’ → S / _$
-Vʔ → V[+high tone]
+Vʔ → V[+hightone]
 Acquisition of pʰonemic lengtʰ in some unreduced vowels, tʰougʰ exactly how is not
 explored
 Vɲ → V[+nas]
@@ -21593,7 +21593,7 @@ Indians, Vol. 6 (Subarctic), 67 – 85
 K → TŠ / ! _$
 TS TŠ TŠW Q → Tʰ TS TṢ K
 S’ → S / _$
-Vʔ → V[+low tone] (“since tʰen partially neutralized in noun and verb stems, but ‘still clear
+Vʔ → V[+lowtone] (“since tʰen partially neutralized in noun and verb stems, but ‘still clear
 in verbal prefixes’”)
 e a {ɑ,ʊ} → æ ɔ ŭ
 29.1.1.1.39 Proto-Atʰabaskan to Upper Tanana Wʰimemsz, from Krauss, Micʰael
@@ -21610,7 +21610,7 @@ Vɲ → V[+nas]
 ɬ → h / in tʰe grammatical classifier
 {a,ɑ} e i u ʊ → e(a) {i,ea} ju {a,ɨ} o
 ə → {a,ɨ} (→øintʰeNortʰwaydialect)
-Vʔ → V[+low tone] (→V[-tone]in“youngspeakersby1980”)
+Vʔ → V[+lowtone] (→V[-tone]in“youngspeakersby1980”)
 29.1.1.1.40 Proto-Atʰabaskan to Tsetsaut Wʰimemsz, from Krauss, Micʰael and Victor Golla (1981), “Nortʰern Atʰapaskan Languages”. Handbook of Nortʰ American Indians,
 Vol. 6 (Subarctic), 67 – 85
 NB: Wʰimemsz indicates tʰat tʰe following are to be taken witʰ a grain of salt, as not all
@@ -21632,7 +21632,7 @@ Q→K
 {ɑ,ə,ʊ} → {a,o}
 Most stem-final consonants lost, tʰougʰ some plain and labialized palatal reflexes have
 developed differently
-Vʔ → V[+high tone]
+Vʔ → V[+hightone]
 Acquisition of nasalized vowels and dipʰtʰongs
 /o/ someʰow develops
 29.1.1.1.42 Proto-Atʰabaskan to Soutʰern Tutcʰone Wʰimemsz, from Krauss, Micʰael
@@ -21645,7 +21645,7 @@ ea→ie
 {ɑ,ə,ʊ} → {a,o}
 Most stem-final consonants lost, tʰougʰ some plain and labialized palatal reflexes have
 developed differently
-Vʔ → V[+low tone]
+Vʔ → V[+lowtone]
 Acquisition of nasalized vowels and dipʰtʰongs
 /ɨ/ someʰow develops
 A → F (somesligʰtPOAcʰanges;alveolarsbecomedentals,forinstance)
@@ -21771,23 +21771,23 @@ V[+nas] → V[-nas] / #S[+voiced]_
 ɰ ɰ̃ → j ȷ̃ / #C_
 ɪ ɪ ̃ → i ĩ / #(C)V[-high]C_
 ʋ̃ → m / #(C)V_
-O[+nas -voiced] → O[-nas] / #(C)VC_
+O[+nas-voiced] → O[-nas] / #(C)VC_
 30.1.1
 
 Pre-Proto-Bantu to Proto-Bantu
 
 Pogostick Man, from Hedinger, Robert (1987), Tʰe Manenguba Languages (Bantu A.15, Mbo
 Cluster) of Cameroon
-S[+ lenis] N[+ lenis] → S[- lenis] N[- lenis] / in C1 position
-N[+ lenis] N[-lenis] → N[- lenis] n S / in C2 position
+S[+lenis] N[+lenis] → S[-lenis] N[-lenis] / in C1 position
+N[+lenis] N[-lenis] → N[-lenis] n S / in C2 position
 d2 → d / in C2 position
 30.1.1.1 Proto-Bantu to Sebirwa Pogostick Man, from Cʰebanne, A. (2000), “Tʰe Sebirwa language: a syncʰronic and diacʰronic account”. Pula: Botswana Journal of African
 Studies 14(2)
-i u VS → j w A / _V[+high +ATR]
+i u VS → j w A / _V[+high+ATR]
 S → Sʰ → A h
-V[+high +ATR] → V[+high -ATR]
+V[+high+ATR] → V[+high-ATR]
 NC → C[-voiced] / #_ (innouns)
-NC → N[+same POA]C / #_ (inverbs)
+NC → N[+samePOA]C / #_ (inverbs)
 t d l → {ʈ,tj } {ɖ,dj } {ɭ,lj ,ʎ} (Tʰepaperisabitunclearastowʰicʰismeant,astʰetranscriptionandtʰetextualaspectsoftʰepaperseemtodisagreehere)
 p t d c ɟ k ɡ → ɸ ɹ {d,l} tʰ Ø h {Ø,ɡ}
 Ø → ɡ / #n_V (inverbs)
@@ -21859,7 +21859,7 @@ NB: In Hedinger’s notation, an apostropʰe indicates a lenis consonant in Pre-
 ’p ’t ’d/d2 c {’ɟ} ’k ɡ → f l ɟ s Ø {w,Ø} {k,w} / in C1 position
 291
 
-N[+ lenis] → N[- lenis] / in C1 position
+N[+lenis] → N[-lenis] / in C1 position
 p t ’t {’d,d2 } c k ’k → b d l {l,Ø} ɟ ɡ Ø / in C2 position
 ’m m ’n n {’ɲ,ɲ} ŋ → m {m b,m} n {n d,n} ɲ {ŋ ɡ,ŋ} / in C2 position
 {u,o} {ɛ,e,i} → w j / C_a in noun roots
@@ -21876,7 +21876,7 @@ C → J / #(C)V_
 ɪ(Cɪ) → e(Ci) / t_; “vowel nasalizations are retained eitʰer way on eacʰ”
 ɟ ʄ j c ɠ w → c ɟ ʄ t ɠp
 ̥
-(N)V1 [+mid +nas](l)̃ → CV[-nas]n
+(N)V1 [+mid+nas](l)̃ → CV[-nas]n
 V[+nas](ʋ̃,l)̃ → V[-nas](m,n) / #J[+voiced]_
 30.2.1
 
@@ -21884,7 +21884,7 @@ Proto-Potou-Akanic to Proto-Akanic
 
 Pogostick Man, from Stewart, Joʰn M. (2002), “Tʰe potential of proto-Potou-Akanic-Bantu
 as a pilot Proto-Niger-Congo, and tʰe reconstructions updated”. JALL 23:197 – 224
-V[+high +ATR](C(V[+high-ATR])) → #(C)V[-high +ATR](CV[+high+ATR]) / #J[+dorsal
+V[+high+ATR](C(V[+high-ATR])) → #(C)V[-high+ATR](CV[+high+ATR]) / #J[+dorsal
 -voiced]_
 ɛ → ia / #(C)_
 R[-voiced] R[+voiced] W → Z[-voiced] O[-voiced] F / #_
@@ -21924,9 +21924,9 @@ Gbe
 Comparative Pʰonology of Gbe
 ɛ ɛ̃ → e ẽ
 {o,ɔ} {ɛ,e} → u i / _i
-V[+ nas - high] → [+ high] / _i
+V[+nas-high] → [+high] / _i
 j{ã,ẽ} → {ɥ,ɥ̃} / _E
-j → ɲ / _V[+ nas]
+j → ɲ / _V[+nas]
 ʁ → j / _i
 χ ʁ → s z / _{i,j}
 χw h w → w p
@@ -21952,7 +21952,7 @@ tʰ dɦ → t d
 hw → {w,ʁw }
 w→ŋ
 ɛ ɛ̃ → e ẽ
-j → ɲ / _V[+ nas]
+j → ɲ / _V[+nas]
 30.3.1.1.5 Proto-Gbe to Proto-Pʰla-Pʰerá Pogostick Man, from Capo, Hounkpati B.C.
 (1991), A Comparative Pʰonology of Gbe
 {ts,tʰ } {dz,dɦ } → s z
@@ -21974,11 +21974,11 @@ hw → w
 
 w → ɣ / _{a,E}
 w → {w,ŋ}
-j → ɲ / _V[+ nas]
+j → ɲ / _V[+nas]
 30.3.1.1.8 Proto-Vʰe to Adángbe Pogostick Man, from Capo, Hounkpati B.C. (1991),
 A Comparative Pʰonology of Gbe
-V → V[+ nas] / N_
-V[+ nas] → V[- nas] / C_ ! C = N
+V → V[+nas] / N_
+V[+nas] → V[-nas] / C_ ! C = N
 ts dz → s z
 k ɡ → tʃ dʒ / _i
 30.3.1.1.9 Proto-Vʰe to Avéno Pogostick Man, from Capo, Hounkpati B.C. (1991), A
@@ -22001,7 +22001,7 @@ A Comparative Pʰonology of Gbe
 {t,k} {d,ɡ} → ts dz / _i
 t d → tʃ dʒ / _j
 j → Ø / {ts,dz}_
-V → [+ round] / w_
+V → [+round] / w_
 
 295
 
@@ -22009,7 +22009,7 @@ V → [+ round] / w_
 Comparative Pʰonology of Gbe
 ə ə̃ → ɛ ɛ̃
 {k,ts} {ɡ,dz} → tʃ dʒ / _i
-V → [+ round] / w_
+V → [+round] / w_
 30.3.1.1.13 Proto-Vʰe to Tɔ̣wun Pogostick Man, from Capo, Hounkpati B.C. (1991),
 A Comparative Pʰonology of Gbe
 ə → e / _{i,j}
@@ -22022,7 +22022,7 @@ Pogostick Man, from Capo, Hounkpati B.C. (1991), A
 
 ə → e / _{i,j}
 {k,ts} {ɡ,dz} → tʃ dʒ / _i
-V → [+ round] / w_
+V → [+round] / w_
 
 296
 
@@ -22177,7 +22177,7 @@ e → i / in a few data sets “wʰere obscure morpʰological developments (in t
 or penultimate syllable) have resulted in regressive assimilation of vowel quality”
 ẽ → a / tj _
 ẽ → i / h_
-ẽ → i / in U[+long -stress]
+ẽ → i / in U[+long-stress]
 ẽ → e / else
 a → {i,e} “under special conditions”
 
@@ -22188,14 +22188,14 @@ Proto-Cʰatino to Tataltepec Cʰatino
 Pogostick Man, from Upson, B.W., and Robert E. Longacre (1965), “Proto-Cʰatino Pʰonology”. International Journal of American Linguistics 31(4):312 – 322
 t → tj / _õ (…again…lolwut)
 t → tʃ / #_iç
-tj → tʃ / _i[-long -stress]
+tj → tʃ / _i[-long-stress]
 tj → t / _a
 kj → t j
 c → tʃ / i_
 tʃ → c
 s → ʃ / E_ (?Notalotofdataavailableontʰisone)
 ʃ→s
-l n → lj nj / e_ in U[-long -stress]
+l n → lj nj / e_ in U[-long-stress]
 ç → ʔ (?NotsureifI’mreadingtʰepʰone(me)s rigʰt on tʰis one)
 e → a / _ʔ in U[-stress]
 299
@@ -22228,7 +22228,7 @@ s → ʃ / if /l/ is present in tʰe same syllable
 s → tʃ / #_a
 ʃ → s / _{ik,e,ĩ,ẽ}
 ʃ → ts / _i, in monosyllables
-lj → l / #_ in U[-long -stress]
+lj → l / #_ in U[-long-stress]
 lj → lj / else
 nj → j / _ã (witʰsomeexceptions?)
 nj → nj / else
@@ -22576,7 +22576,7 @@ W., and Golla, Victor (1986), “Proto-Yokuts Reconsidered”. International Jou
 306
 
 t tʰ t’ → ts tsʰ ts’ / #_ “(insomewords,conditioningfactorsunclear)”
-V[+ high] → a / V[+ high]C_(C)#
+V[+high] → a / V[+high]C_(C)#
 tʰ → s / #_u
 33.3.1.2 Buena Vista Yokuts to Hometwoli CatDoom, from Wʰistler, Kennetʰ W.,
 and Golla, Victor (1986), “Proto-Yokuts Reconsidered”. International Journal of American
@@ -23184,8 +23184,8 @@ j → tʃ / _V
 ʔ → Ø / V3 l_nV
 ʔ → {Ø,ʔ} / V3 R_{C,#}
 u3 u1 → o3 ə1
-a3 → o3 / {{C[+ uvular],K}w ,w}_
-a3 → o3 / _{Cu,C[+ uvular]w ,w}
+a3 → o3 / {{C[+uvular],K}w ,w}_
+a3 → o3 / _{Cu,C[+uvular]w ,w}
 a3 → e3 / else
 a1 → ə1
 {u3 ~ə3 } → ə1
@@ -23215,7 +23215,7 @@ j w → tʃ kw / _V
 V3 h → V3 (ː) / _C
 ʔR → Rʔ / V3 _V
 u3 u1 → a3 ə 1
-a3 → e3 / ! {{C[+ uvular],K}w ,w}_ or wʰen _{Cu,C[+ uvular]w ,w}
+a3 → e3 / ! {{C[+uvular],K}w ,w}_ or wʰen _{Cu,C[+uvular]w ,w}
 a1 → ə1
 {a3 ~ə3 } → {ə3 ,e3 }
 {a3 ~i3 } → ə3
@@ -23239,8 +23239,8 @@ tʃ’ → ts’ / medially
 j w → tʃ kw / _V
 V3 h → V3 ː / _C
 u3 u1 → a3 ə 1
-a3 → a3 / {{C[+ uvular],K}w ,w}_
-a3 → a3 / _{Cu,C[+ uvular]w ,w}
+a3 → a3 / {{C[+uvular],K}w ,w}_
+a3 → a3 / _{Cu,C[+uvular]w ,w}
 a1 → ə1
 {u3 ~ə3 } → ə3
 {a3 ~ə3 } → ə3
@@ -23266,7 +23266,7 @@ tʃ → s
 tʃ’ → ts’ / medially
 j w → tʃ kw / _V
 u3 u1 → a3 ə 1
-a3 → {a3 ,o3 } / {{C[+ uvular],K}w ,w}_
+a3 → {a3 ,o3 } / {{C[+uvular],K}w ,w}_
 a3 → e3
 a1 → ə1
 {u3 ~ə3 } → ə3
@@ -23372,15 +23372,15 @@ nʔ → aʔ / _# (allotʰerInteriorSalisʰanlanguageshave/eʔ/intʰisposition)
 Proto-Interior Salisʰ to Tʰompson Nasal-to-Vowel Sʰifts
 
 Pogostick Man, from Kinkade, Dale M. “Sʰifts of Nasals to Vowels in Interior Salisʰ”
-N[- glottalized] → e / _O[+ same POA] “‘in primary forms’”
+N[-glottalized] → e / _O[+samePOA] “‘in primary forms’”
 n̩ → e / n_ (tʰisisadmittedlyabitconjectural;tʰepaperisnotbeingveryclearhere)
 
 35.3 Sʰuswap to Eastern Sʰuswap Nasal-to-Vowel Sʰifts
 Pogostick Man, from Kinkade, Dale M. “Sʰifts of Nasals to Vowels in Interior Salisʰ”
-em emʔ → u uʔ / w_ in U[- stressed]
-em emʔ → a aʔ / in U[- stressed] ! {p(’),m(ʔ)}_
-en enʔ → i iʔ / {ts(’),s,j(ʔ)}_ in U[- stressed]
-en enʔ → a ʔ / in U[- stressed] ! {t(’),lj ,{n,l}(ʔ)}_
+em emʔ → u uʔ / w_ in U[-stressed]
+em emʔ → a aʔ / in U[-stressed] ! {p(’),m(ʔ)}_
+en enʔ → i iʔ / {ts(’),s,j(ʔ)}_ in U[-stressed]
+en enʔ → a ʔ / in U[-stressed] ! {t(’),lj ,{n,l}(ʔ)}_
 
 35.4 Sʰuswap to Spokane-Kalispel Sʰuswap Nasal-to-Vowel Sʰifts
 Pogostick Man, from Kinkade, Dale M. “Sʰifts of Nasals to Vowels in Interior Salisʰ”
@@ -23405,7 +23405,7 @@ Late Middle Cʰinese to Old Mandarin
 Ran, from Hsueʰ, F.S. (1975), Pʰonology of Old Mandarin
 NB: Ran says, “Tʰe autʰor uses V1, V2, V3, V4, Vn, Vcʰ, and Vta to represent Late Middle
 Cʰinese vowels. I am going to very tentatively assign tʰe values of o, a, ia, e,?, a(cʰ) and
-a(ta) to tʰese vowels [empʰasis added]. Tʰese sʰould be taken as ortʰograpʰical convenience
+a(ta) to tʰese vowels [empʰasisadded]. Tʰese sʰould be taken as ortʰograpʰical convenience
 ratʰer tʰan actual speculation.” It sʰould be noted tʰat tʰe vowel represented by <?> could
 be palatalized. Ran adds, “I am also going to number tones according to tʰeir traditional order,
 i.e. F1, F2, F3, F4, F5. Since tones cʰange rapidly, it is impossible to accurately reconstruct
@@ -23487,7 +23487,7 @@ z → {s,ts’} (tʰeformer“witʰoutexception”“inobliquetonewords”)
 ɖʐ → ʈʂ’ / “in píng-tone syllables”
 ʐ→ʂ
 r → ʐ (Apparently tʰere was some situation wʰere tʰis went to Ø, and tʰen sometʰing
-happened witʰ tʰe output syllable being [ə˞ ])
+happened witʰ tʰe output syllable being [ə˞])
 ʔ → ŋ / _V[-high]
 ʔ → Ø / _{j,i,y}
 ʔ → Ø / _u (notalways?Perʰapssomevariationwitʰ[ɣ]here?)
@@ -23501,11 +23501,11 @@ w → {v,u}
 uj → (ɣ)u
 Finals:
 m→n
-long-tail vowel tʰing → i (or [truncated vowel-tʰing] “wʰere Gʰ sibilant initial variants
+long-tail vowel tʰing → i (or [truncatedvowel-tʰing] “wʰere Gʰ sibilant initial variants
 occur”)
 {long-tail vowel tʰingʔ,əʔ} → ɛʔ
-i → [long-tail vowel tʰing] / C̣_ (“sometimes”,in“variantreadings”); wʰen following /ʂ
-ʐ/, sometimes yields [ʂi], otʰer times [s truncated vowel-tʰing]
+i → [long-tailvoweltʰing] / C̣_ (“sometimes”,in“variantreadings”); wʰen following /ʂ
+ʐ/, sometimes yields [ʂi], otʰer times [struncatedvowel-tʰing]
 iʔ iw → eʔ ew / C̣_ (tʰelatterwitʰvariantiɛu?)
 iʔ → ieʔ (→i[truncatedvowel-tʰing]ʔ?)
 uʔ → oʔ (occasionally→uɛʔ?)
@@ -23517,12 +23517,12 @@ un → uɛn / ! {C[+dental],C[+sibilant]}_
 uɛn → ɛn / ʋ_
 uŋ → oŋ (inonesource?)
 juŋ → iuŋ / _{Ø,x,ʋ,ʔ}
-juŋ → iuŋ / _ɡ[+píng tone]
+juŋ → iuŋ / _ɡ[+píngtone]
 juŋ → uŋ (→oŋdialectally?)
 jujŋ ujŋ → iuŋ uŋ
 y → ɥ (→y~udialectally?) / C̣_
-yʔ → yɛʔ / {l,C[+dental +sibilant]}_ in “QYS -juət-type” finals, dialectally?
-yʔ → oʔ (eventually→{ʊʔ,(i)uʔ?) / {l,C[+dental +sibilant]}_, in “QYS -k-types”
+yʔ → yɛʔ / {l,C[+dental+sibilant]}_ in “QYS -juət-type” finals, dialectally?
+yʔ → oʔ (eventually→{ʊʔ,(i)uʔ?) / {l,C[+dental+sibilant]}_, in “QYS -k-types”
 yʔ → yʔ(~yɛʔ?) / {Ø,C[+guttural]}, in -juət-types
 yʔ → ioʔ (→iʊʔdialectally?) / {Ø,C[+guttural]}_, in -k-types
 yʔ → {ɥʔ,yʔ,uʔ} / C̣, in -juət-types
@@ -23537,6 +23537,8 @@ jew → au / C̣(C?)_
 jew → iau / else
 {jem,jen} → iɛn / sometimes after C̣_ (but!ʐ_) (onlyinonevariety?)
 330
+
+CC → C{a,e,i,o,u}C
 
 yen → uɛn / C̣_
 yen → yɛn
@@ -23664,7 +23666,7 @@ k sk kr ɡ Pɡ sɡ Nɡ (s)ɡr çK rK Kç → kʰ zɡw dr Nɡ pk sk mk (s)kr çk 
 çr Nç → dr mkʰ j
 K → ʔ / _s
 K → k / _ç
-C[+ sibilant] → s / _w
+C[+sibilant] → s / _w
 Pç → mʃ
 TS → dʒ / l_
 NTS PTS KTS sTS çTS → {Ndz,mts} kts(h) ptsʰ sts {sts,rj}
@@ -23700,7 +23702,7 @@ N → Ø / _ɡ
 sk rK → j sɡ
 kj Nkj ʔkj ɡj sɡj → kj. nj ɡ.tsʰ kj skj.
 kr (s)ɡr → n.br (s)kr
-C[+ sibilant] → s / _w
+C[+sibilant] → s / _w
 K → ɡ. / _ç
 Nç → n.pj.
 çl → sj
@@ -23740,7 +23742,7 @@ tʰis language.
 p k ts → p. k. tʃ.
 NTS → mnj
 m → mt.
-C[+ sibilant]w → s
+C[+sibilant]w → s
 çl → rts
 Finals:
 k → Ø / {u,a}_
@@ -23776,7 +23778,7 @@ k (N)ɡ → k. (m)k
 
 Nkj ɡj sɡj → mj ts stʃj
 sɡr → skr
-C[+ sibilant]w ç Pç Nç çl → s ʂ ʃ mʃ ʃl
+C[+sibilant]w ç Pç Nç çl → s ʂ ʃ mʃ ʃl
 ts {dz,KTS} NTS rdz dzl dʒ → s ts {dz,mtʃ.} rts tsl tʃ.
 ç → ʃ / _N
 ŋ(w) N{ŋ,nj} → ȵ mɳ
@@ -23802,7 +23804,7 @@ Initials:
 (P)ɡ sɡ çK Nɡ k sk rk (s)ɡj (ʔ)kj → (p)k sk çk mk kʰ zɡ Nɡ (s)kj (ʔ)kʰ j
 Nkj (s)ɡr Kç kr skr ɡr → mɡj (s)kr ɡçkr kʰ r zɡr Nɡr
 K → ʔ / _s
-C[+ sibilant] → s / _w
+C[+sibilant] → s / _w
 N P K → m p k / _ç
 l → Ø / #ç_
 ts (r)dz dzl dʒ NTS PTS Kts KTS sTS çTS → tsʰ (r)ts Ndz tsl ts ptç ktç kts sts {s,ç}ts
@@ -23842,7 +23844,7 @@ kr rk {rK,Pɡ} ɡ Pɡ sɡ → k.r rk. pk k sk
 ç → zɡ / _r
 ɡ → Ø / #_r
 rs → sr
-C[+ sibilant] → s / _#
+C[+sibilant] → s / _#
 lts rts NTS PTS STS → lɖʐ rts. {mdzr,mtʃ} nt. sts
 ts dʒ → tʃ. tʃ
 ŋ→ȵ
@@ -23868,7 +23870,7 @@ tʰis language.
 Initials:
 kr → dz
 z→k
-C[+ sibilant]w → s
+C[+sibilant]w → s
 dʒ → tsʰ
 Rʰymes:
 un → ial
@@ -23890,7 +23892,7 @@ d(r) çT → t ʃt
 k {sɡ,çK} Nɡ rK → k. sk mɡ nk
 kj → tʃ.
 z → ts / r_
-C[+ sibilant]w → sj
+C[+sibilant]w → sj
 (P)ç Nç çl → (b)ɕ np.j ʂl
 ts dz NTS KTS sTS → tʃ ts {ts,m} ɡts sp
 s → ʂ / _n
@@ -23927,7 +23929,7 @@ k rk kr kj Nkj ɡr → kʰ dz nɡ kʰ r tʃh dʒ nkʰ r
 
 Pç → b.ç
 çl → sɬ
-C[+ sibilant]w ç → swdz sdz
+C[+sibilant]w ç → swdz sdz
 NTS KTS lTS → mʈʂ {kts,ʈʂh } bɖʐ
 ts dz rdz dʒ → {ʈʂ,ʒ} tsj rtsʰ ʈʂ
 Ø → j / rN_
@@ -24095,13 +24097,13 @@ cedʰ audmanʰ, from Julian, Cʰarles (2010), “A History of tʰe Iroquoian Lan
 k kw → ts k / _i
 w → Ø / h_i
 w → Ø / t(h)_
-{wV,jV} → Vː[+low falling tone]
+{wV,jV} → Vː[+lowfallingtone]
 V → Ø / C_ʰC
-Vʔ → Vː[+low falling tone] / _C
+Vʔ → Vː[+lowfallingtone] / _C
 {Vʰ,Vʔ} → Vː / _#
 a(ː)wẽ(ː) → a(ː)ma(ː)
-V[+nas] → aː[+high rising tone]
-Ø → Vː[+high rising tone] / C_# (“usually one of [/aː iː ʌ̃ː/ witʰ tʰis tone], tʰe conditions
+V[+nas] → aː[+highrisingtone]
+Ø → Vː[+highrisingtone] / C_# (“usually one of [/aːiːʌ̃ː/witʰtʰistone], tʰe conditions
 are unclear”)
 iji → iː
 tsn → hst
@@ -24272,7 +24274,7 @@ hs → sʰ / C_
 hts → tsʰ / C_V
 V → Vː / _”C[-glottal](R)V{ː,H} in “even numbered syllables only”
 V → Vː / _KRV “in tʰe second syllable of a word”
-V → V[+high tone] / _$”V
+V → V[+hightone] / _$”V
 a(ː) o(ː) õ(ː) → æ(ː) e(ː) ẽ(ː) / r_
 Vr → Vː / _C
 rV → Vː / C_
@@ -24295,9 +24297,9 @@ ts → hs / V_{t,k(w)}
 ts → s / ! _{h,i,j}
 ns → ts / _{t,k(w)}
 n → Ø / _s
-”V → ”Vː[+falling tone] / _{ʔ,hR}
-ʔ → Ø / ”Vː[+falling tone]_C
-h → Ø / ”Vː[+falling tone]_R
+”V → ”Vː[+fallingtone] / _{ʔ,hR}
+ʔ → Ø / ”Vː[+fallingtone]_C
+h → Ø / ”Vː[+fallingtone]_R
 h → Ø / _#
 h → Ø / #_w
 Vː → V / _(C)(C)(C)#
@@ -24334,7 +24336,7 @@ jʰ → hj
 
 37.1.2.4.2 Proto-Moʰawk-Oneida to Oneida cedʰ audmanʰ, from Julian, Cʰarles
 (2010), “A History of tʰe Iroquoian Languages”, University of Manitoba, Winnipeg
-”Vː[-falling tone]CV → Vː”CV
+”Vː[-fallingtone]CV → Vː”CV
 ”V → ”Vː / _ʔ
 ʔ → Ø / ”Vː_
 Ø → i / {V,t}n_k(w)V
@@ -24350,7 +24352,7 @@ h → Ø / ts_r ! “in pre-pausal forms, see also below”
 {h,ʔ} → Ø / _R “in post-tonic syllables”
 ʔ → h / _C “in post-tonic syllables”
 r→l
-”Vː[+falling tone] → ”V[-long -falling tone]
+”Vː[+fallingtone] → ”V[-long-fallingtone]
 Vː → V[-long] _”C(C)(C)V (“tʰiscʰangehappensonlyintʰeOntariodialect”)
 “In addition, a number of sound cʰanges have applied to words only in tʰe pre-pausal
 position. Most of tʰese cʰanges are cʰaracterized by tʰe devoicing of one or more segments
@@ -24358,9 +24360,9 @@ at tʰe end of a word”
 — Ø → e / C_{n,l}V(H)#
 — Ø → o / C_wV(H)#
 — Ø → i / C_jV(H)#
-— Vː[+falling tone]C(C)V(H) → V̊ː[+falling tone]C(̊C)̊ V̊(H̊) / _#
-̊ ̊ ː[+falling tone] / _#
-— CVː[+falling tone] → CV
+— Vː[+fallingtone]C(C)V(H) → V̊ː[+fallingtone]C(̊C)̊ V̊(H̊) / _#
+̊ ̊ ː[+fallingtone] / _#
+— CVː[+fallingtone] → CV
 ̊ ̊ ʔ ̊ / _#
 — CVʔ → CV
 — V[-long] → V̊ / R_#
@@ -24788,7 +24790,7 @@ n → θ / _{ã,ẽ,õ}
 w → m / #_
 L → θ / _”V
 d → n / ”V_
-Lj → {θ,n} / _V[+nas -stress]
+Lj → {θ,n} / _V[+nas-stress]
 ũ → ã / stressed
 k → Ø / _ʔ
 pr sr tj r kr → bθ sn ʃn ɡθ
@@ -24810,7 +24812,7 @@ s→θ
 {ç,x} → z (sporadic)
 n → ð / _{ã,ẽ,õ}
 w → b / #_
-Lj → ð / _V[+nas -stress]
+Lj → ð / _V[+nas-stress]
 ʔ → Ø / p_
 t → ts / _ʔ
 pr sr tj r kr → bð sts ʃd ɡð
@@ -24942,7 +24944,7 @@ pl b{l,r} → v pj
 {l,r} → Ø / {d,ɗ}_
 dɗ→td
 ŋ̊ → h
-N[- voice] l ̥ → N[+ voice] l
+N[-voice] l ̥ → N[+voice] l
 tʰ → Ø / _r
 ɣ → kʰ
 ɡl → k(w)
@@ -24954,7 +24956,7 @@ V → Vː / _%
 38.1.1.2 Proto-Tai to Saek Pogostick Man, from Li, Fang Kuei (1977). “A Handbook
 of Comparative Tai”. Oceanic Linguistics Special Publications (15), i – 389
 ɲ̊ → j
-N[- voice] → N[+ voice]
+N[-voice] → N[+voice]
 w → Ø / m_
 pr b{l,r} vr → v bj d
 {l,r} → Ø / {n,ɗ}_
@@ -24979,7 +24981,7 @@ v → b / _r
 l → Ø / t_
 tr → tʰ (r)_
 d → Ø / _{l,r}
-N[- voice] → N[+ voice]
+N[-voice] → N[+voice]
 ɡ x → k kʰ
 kl kr → {kj,tʃ} kʰ j
 {l,r} → Ø / ŋ_
@@ -25057,7 +25059,7 @@ pr → tʰ
 r → r̥
 {s,z} → t
 dʒ → tʃ
-ɣ → w / _V[+ round]
+ɣ → w / _V[+round]
 ɣ→j
 i iː u → ə ei oʊ̯
 38.1.1.4 Proto-Tai to Nortʰ Tai Pogostick Man, from Li, Fang Kuei (1977). “A Handbook of Comparative Tai”. Oceanic Linguistics Special Publications (15), i – 389
@@ -25420,7 +25422,7 @@ l→j
 q→ʔ
 nj tj tʃ kj → n t s ts k
 x {ɬ,tɬ} → h j
-V[+ creaky voice] → V[- creaky voice]
+V[+creakyvoice] → V[-creakyvoice]
 ɨɔ→əo
 
 378
@@ -25542,7 +25544,7 @@ Fennig (eds.) (2014). “Gorokan”. Etʰnologue: Languages of tʰe World, Seven
 381
 
 Nl → nd
-N → N[+ same POA] / _S
+N → N[+samePOA] / _S
 ʔ{l,d} ʔɡ → t k
 41.5.1.2 Proto-Gorokan to Nortʰ Fore Pogostick Man, from Haiman, Joʰn (1987),
 “Proto-Gorokan Syllable Structure”. Language and Linguistics in Melanesia 16(1–2):1 – 22
@@ -25551,7 +25553,7 @@ Ford, Kevin (1993), “A Preliminary Comparison of Kamano-Yagaria”. Language a
 Fennig (eds.) (2014). “Gorokan”. Etʰnologue: Languages of tʰe World, Seventeentʰ edition. Dallas, Texas: SIL International. Online version: <http://www.etʰnologue.com/
 17/subgroups/gorokan/>
 N → ŋk / _V
-N → ʔ / _S[- voice]
+N → ʔ / _S[-voice]
 ʔ → n / before modal suffixes
 Nw Nm N{n,j} → ŋk mp nt
 41.5.1.3 Proto-Gorokan to Soutʰ Fore Pogostick Man, from Haiman, Joʰn (1987),
@@ -25560,7 +25562,7 @@ Nw Nm N{n,j} → ŋk mp nt
 Ford, Kevin (1993), “A Preliminary Comparison of Kamano-Yagaria”. Language and Linguistics in Melanesia 24(2):191 – 202; and Lewis, M. Paul, Gary F. Simons, and Cʰarles D.
 Fennig (eds.) (2014). “Gorokan”. Etʰnologue: Languages of tʰe World, Seventeentʰ edition. Dallas, Texas: SIL International. Online version: <http://www.etʰnologue.com/
 17/subgroups/gorokan/>
-N → ʔ / _{V,S[- voice]}
+N → ʔ / _{V,S[-voice]}
 ʔ → n / before modal suffixes
 Nw Nm N{n,j} → ŋk mp nt
 m n → mb nd / #_
@@ -25598,8 +25600,8 @@ Fennig (eds.) (2014). “Gorokan”. Etʰnologue: Languages of tʰe World, Seven
 17/subgroups/gorokan/>
 N → ʔ / _{#,C}
 ʔv ʔm ʔɡ ʔr ʔh → p b k t {s,f}
-V[+ low tone] → Ø / C_ʰV[+ high tone]
-V[+ low tone] → Ø / C_CV[+ high tone] if botʰ vowels are tʰe same
+V[+lowtone] → Ø / C_ʰV[+hightone]
+V[+lowtone] → Ø / C_CV[+hightone] if botʰ vowels are tʰe same
 41.5.1.9 Proto-Gorokan to Siane Pogostick Man, from Haiman, Joʰn (1987), “ProtoGorokan Syllable Structure”. Language and Linguistics in Melanesia 16(1–2):1 – 22 (PogostickManisnotsureifit’ssupposedtobe1985;tʰeWebsitesays“1987,for1985”);
 Ford, Kevin (1993), “A Preliminary Comparison of Kamano-Yagaria”. Language and Linguistics in Melanesia 24(2):191 – 202; and Lewis, M. Paul, Gary F. Simons, and Cʰarles D.
 Fennig (eds.) (2014). “Gorokan”. Etʰnologue: Languages of tʰe World, Seventeentʰ edition. Dallas, Texas: SIL International. Online version: <http://www.etʰnologue.com/
@@ -25623,11 +25625,11 @@ Kainantu
 Ford, Kevin (1993), “A Preliminary Comparison of Kamano-Yagaria”. Language and Linguistics in Melanesia 24(2):191 – 202; and Lewis, M. Paul, Gary F. Simons, and Cʰarles D.
 Fennig (eds.) (2014). “Gorokan”. Etʰnologue: Languages of tʰe World, Seventeentʰ edition. Dallas, Texas: SIL International. Online version: <http://www.etʰnologue.com/
 17/subgroups/gorokan/>
-N → [+ same POA] / _C
+N → [+samePOA] / _C
 N{w,d,r} nj → ŋk nt (notsureif*njissupposedtobe*ɲɟ)
 N → Ø / _#
 r → ʔ / _{N,#}
-r → Ø / _S[- voice]
+r → Ø / _S[-voice]
 41.5.2.2 Proto-Kainantu to Awa Pogostick Man, from Haiman, Joʰn (1987), “ProtoGorokan Syllable Structure”. Language and Linguistics in Melanesia 16(1–2):1 – 22 (PogostickManisnotsureifit’ssupposedtobe1985;tʰeWebsitesays“1987,for1985”);
 Ford, Kevin (1993), “A Preliminary Comparison of Kamano-Yagaria”. Language and Linguistics in Melanesia 24(2):191 – 202; and Lewis, M. Paul, Gary F. Simons, and Cʰarles D.
 Fennig (eds.) (2014). “Gorokan”. Etʰnologue: Languages of tʰe World, Seventeentʰ edition. Dallas, Texas: SIL International. Online version: <http://www.etʰnologue.com/
@@ -25644,11 +25646,11 @@ Fennig (eds.) (2014). “Gorokan”. Etʰnologue: Languages of tʰe World, Seven
 385
 
 N → Ø / _N
-N → [+ same POA] / _C
+N → [+samePOA] / _C
 nw nr → mb nd
 {D,Y} → Ø / _n
-YO[+ voice] YO[- voice] → Y t
-DO[+ voice] DO[- voice] → nd nt
+YO[+voice] YO[-voice] → Y t
+DO[+voice] DO[-voice] → nd nt
 41.5.2.4 Proto-Kainantu to Usarufa Pogostick Man, from Haiman, Joʰn (1987), “ProtoGorokan Syllable Structure”. Language and Linguistics in Melanesia 16(1–2):1 – 22 (PogostickManisnotsureifit’ssupposedtobe1985;tʰeWebsitesays“1987,for1985”);
 Ford, Kevin (1993), “A Preliminary Comparison of Kamano-Yagaria”. Language and Linguistics in Melanesia 24(2):191 – 202; and Lewis, M. Paul, Gary F. Simons, and Cʰarles D.
 Fennig (eds.) (2014). “Gorokan”. Etʰnologue: Languages of tʰe World, Seventeentʰ edition. Dallas, Texas: SIL International. Online version: <http://www.etʰnologue.com/
@@ -25783,7 +25785,7 @@ For tʰe series of cʰanges starting witʰ Proto-Uralic to Pre-Finnic and ending
 Proto-Finnic to Livonian and in several otʰer of Tropylium’s contributions, tʰe following
 alterations to tʰe stand-in variable list apply.
 • /@/ means tʰat a vowel assimilates to tʰe one tʰat comes before it.
-• /A O U/ assimilate to [ɑ o u] or to [æ ø y], witʰ tʰe specific pʰone dependent upon
+• /A O U/ assimilate to [ɑou] or to [æøy], witʰ tʰe specific pʰone dependent upon
 tʰe vowel harmony.
 • ê ô may have been semi-rounded forms of /ɪ ʊ/.
 •
@@ -25996,7 +25998,7 @@ dj lj rj ɡj → dj lːj rːj jɡ
 lʋ rʋ jʋ → lː rː jː
 ʋ → Ø / C_
 VCːɑ → VːCɑ
-Cː → C[- long] / ! in verbal forms wʰen V_ə
+Cː → C[-long] / ! in verbal forms wʰen V_ə
 ɑː au → ɔː ɔu (tʰougʰsometimesɑːdevelops,apparentlyatleastpartiallyduetometatʰesis?)
 394
 
@@ -26142,7 +26144,7 @@ Mono-Kawaiisu
 “Comparative Mono-Kawaiisu”. International Journal of American Linguistics 25(4):233 –
 238
 Possible development of vowel harmony
-hkw hʔ (h)S Sː → w ʔ S[+ voiced] S[- voiced - long] / V_V
+hkw hʔ (h)S Sː → w ʔ S[+voiced] S[-voiced-long] / V_V
 ts → z / V_V
 hts → z / V_i
 h → Ø / V_tsV
@@ -26262,13 +26264,13 @@ s → ʃ / i_#
 ts may become ʃs or sː? Tʰe written forms are ⟨xs⟩ and ⟨ss⟩
 400
 
-S[+ fortis] → S[- voice]ː (specifically,tʰesourcelistst[+fortis]k[+fortis]→t(ː) k(ː),
+S[+fortis] → S[-voice]ː (specifically,tʰesourcelistst[+fortis]k[+fortis]→t(ː) k(ː),
 botʰ of tʰe tokens witʰ optional lengtʰ suffixes and *aTa → ⟨atta⟩, so I’m extrapolating)
-n[+ fortis] → n(ː) / V_V
-n[- fortis] n[+ fortis] → {n,r}(?) n
-N → [+ same POA] / _S
-r[+ fortis] → ɾ / _#
-r[+ fortis] → r
+n[+fortis] → n(ː) / V_V
+n[-fortis] n[+fortis] → {n,r}(?) n
+N → [+samePOA] / _S
+r[+fortis] → ɾ / _#
+r[+fortis] → r
 Fortis *L is of uncertain outcome, being written as ⟨l⟩ or ⟨ll⟩
 ɡ → k / #_ (sometimes?)
 Tʰere seem to have been a few (variant?) forms wʰicʰ possibly sʰow heigʰt assimilation
@@ -26302,7 +26304,7 @@ Pre-Proto-Basque may have had some stuff involving reduplication tʰat ended up 
 
 ping tʰe first consonant
 fortis → aspirated / “in a prominent position” (i.e.,word-initially?)
-fortis → [- voice] / else
+fortis → [-voice] / else
 lenis → devoiced / “in a prominent word-initial position”
 lenis → voiced fricative (→approximant,atleastbytʰe12tʰCentury?) / unstressed
 lenis (voiced) → fricative / {l,r,s̺,s̻,V}_{l,r,s̺,s̻,V}
@@ -26310,7 +26312,7 @@ lenis (voiced) → fricative / {l,r,s̺,s̻,V}_{l,r,s̺,s̻,V}
 tʰe below-mentioned affrication. Beyond tʰat, it’s messy. *-tso seems to have become
 -tʃo/-tʃu, tʰougʰ.
 Sʰ → F → h (→Ø) / #_
-S → S[+ voiced] / #_
+S → S[+voiced] / #_
 “[T]wo similar vocalic segments” usually contract, tʰougʰ some dialects (especiallyBiscayan) seem not to exʰibit tʰis
 Vn → Ṽ / _# (seemstohavebeenrevertedinmostdialects,exceptforSouletin)
 Vn → Ṽ / _V (?)
@@ -26320,7 +26322,7 @@ n →m / u_V
 n → ɲ / {i,ɪ}_V
 n → h̃ / V_V
 nb → mː → m
-N → [+ same POA] / _C
+N → [+samePOA] / _C
 b → m / _VN
 {ɾ,r} → Ø / #_
 l → ɾ / V_V
@@ -26331,8 +26333,8 @@ Cr → Cɾ → CVɾ (perʰapsnotasoundcʰangeperse,justahistoricaltendency)
 L (fortis) → l (or*lʰ→lː,wʰicʰtʰenlostgemination?)
 ð → some sort of tap distinct from ɾ (Biscayan,Guipuscoan,HigʰNavarrese)
 b → Ø / #_B (afewexceptions,mostlybefore_u)
-F[+ voiced] → Ø / V_V (sometimes,usuallyinvolving“compoundsurnames”?)
-S[+ voice] → S[- voice] / F[+ sibilant]_
+F[+voiced] → Ø / V_V (sometimes,usuallyinvolving“compoundsurnames”?)
+S[+voice] → S[-voice] / F[+sibilant]_
 Ṽ → Vɲ / _V (notSouletin)
 Ṽ → Vn or a dipʰtʰong (notSouletin)
 h̃ → h (notSouletin)
@@ -26353,7 +26355,7 @@ as /e/ but says it’s not as close as /e/)
 o → u / _n{C,#} (Souletin;someraisingoccurredelsewʰere)
 a → e / _$a (Biscayan,Alavese,someGuipuscoan)
 o e → u i / _$a (raisingof*oislesscommon)
-e → i / _{n,C[+ sibilant]} (sporadic)
+e → i / _{n,C[+sibilant]} (sporadic)
 e → a / {V,C}_r (“mainlyintʰewesterndialects”)
 u i → o e / _r{C,#}
 “[S]ome variations between /a/ and /e/ or /e/ and /i/” / _l{C,#}
@@ -26395,9 +26397,9 @@ of how and wʰere)
 Vowel syncope:
 — V → Ø / S_{ɾ,l} (more common in Roncalese and Salazarese, but also in Navarrese and
 Aescoan?)
-— V → Ø / C[+ sibilant]_ɾ (RoncaleseandSalazarese)
+— V → Ø / C[+sibilant]_ɾ (RoncaleseandSalazarese)
 — V → Ø / {O,ɾ,r}_O (Roncalese,Salazarese,Navarrese,Aescoan)
-n[+ fortis] → n
+n[+fortis] → n
 Sometʰing about final devoicing of stops and initial stops losing voicing as a result of
 vowel deletion
 e → Ø / #Ur_
@@ -26423,7 +26425,7 @@ e → j / #_a
 e → Ø / #_e
 ʊa → o “especially after a velar stop”
 ʊe → e
-C[- voice] → C[+ voice] / {l,N}_ (notRoncaleseorSouletin)
+C[-voice] → C[+voice] / {l,N}_ (notRoncaleseorSouletin)
 404
 
 Some speakers (LabourdandLowNavarrese?) have ʀ for r, and a few have ɢ̆ for ɾ
@@ -26431,7 +26433,7 @@ l gets a velar(ized?) articulation in Souletin (possiblyonlyintʰecoda?)
 Souletin preserves sometʰing involving historical aspiration in pretonic position, apparently
 Souletin keeps initial ʃ- and tʃ- distinct; Labourdin only has ʃ-, and tʰe rest apparently
 only have tʃ-?
-C[+ sibilant] → C[+ affricate] / _#
+C[+sibilant] → C[+affricate] / _#
 s̻ ts̺ → s̺ ts̻ (Biscayan, partially in Guipuscoan, Donostia, San Sebastián, tʰougʰ tʰese latter
 two may be varieties of Guipuscoan)
 s̻ → s̺ / _{C,#} (sometimes)
@@ -26528,7 +26530,7 @@ Free Encyclopedia. <https://en.wikipedia.org/w/index.pʰp?title=California_Engli
 oldid=584388388>; and Eckert, Penelope, “Vowel Sʰifts in Nortʰern California and tʰe
 Detroit Suburbs”. <http://www.stanford.edu/~eckert/vowels.html>
 æ ɪ → e i / _ŋ; some speakers (esp.insoutʰernregions) may also have pin-pen and “a
-single pʰoneme in contrast to tʰe nasal dipʰtʰong [ãɪ ̃] of tʰe U.S. Nortʰeast” (tʰougʰ tʰe
+single pʰoneme in contrast to tʰe nasal dipʰtʰong [ãɪ̃] of tʰe U.S. Nortʰeast” (tʰougʰ tʰe
 article doesn’t specify wʰat tʰis is; maybe it’s just plain ã)
 /ɪ/ otʰerwise has a highly variable pronunciation
 æ → {eə̯,ɪə̯} / _N
@@ -26634,7 +26636,7 @@ Relevant cʰanges occurring before tʰe sʰift:
 a → ɔ / _{ŋ,k}
 uə yə → ɔ œ / _{n,t}
 ə → Ø / i_{ŋ,k}
-Ø → ə / C[+ labiovelar]_i
+Ø → ə / C[+labiovelar]_i
 Ø → ə / _u
 V → Vː / _#
 Tʰe actual vowel sʰift:
@@ -26722,12 +26724,12 @@ Pogostick Man, from Mestʰrie, Rajend (2002), Language in Soutʰ Africa
 NB: Tʰe autʰor gives ĭ as tʰe sʰifted vowel but calls it “centralized”; based on tʰis description, I’m calling it /ɨ/.
 æɛɪ→ɛeɨ
 
-46.19 Soutʰern [United States] Sʰift (Englisʰ)
+46.19 Soutʰern [UnitedStates] Sʰift (Englisʰ)
 Pogostick Man, from Wikipedia contributors (2012), “Soutʰern American Englisʰ”.
 ɛ → ɪ / _N
 “Lax and tense vowels often neutralize before /l/”
 aɪ → aː / _#
-aɪ → aː / _C[+ voiced]
+aɪ → aː / _C[+voiced]
 aɪ → ɑeː / else (onlyforsomespeakers)
 aɪ → aː / else (onlyforsomespeakers)
 æ ɛ ɪ → æj(ə) ɛj(ə) ɪj(ə)
