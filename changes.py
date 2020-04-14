@@ -73,11 +73,12 @@ def parse(line):
     r = re.sub("(.*?)/.*$", r"\1", r)
     for subl, subr in zip(l.split(), r.split()):
         subl = subl.strip()
-        result = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
+        subl = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
 
         codecount = 0
-        for code in codes:
-            while code in subl:
+        for code in subl:
+            if code in codes:
+                print(subl)
                 subl = subl.replace(code, format_group(code), 1)
                 subr = subr.replace(code, rf"\{codecount + 1}", 1)
                 codecount += 1
@@ -90,7 +91,7 @@ def parse(line):
                   ] + [[(x, ""), (x, x.strip("(").strip(")"))] for x in optpat.findall(subr)]
         # print(allsubs)
         if not allsubs:
-            rules.append((result, subr))
+            rules.append((subl, subr))
         else:
             for prod in itertools.product(*allsubs):
                 psubr = subr
@@ -98,7 +99,7 @@ def parse(line):
                 for full, choice in prod:
                     psubr = psubr.replace(full, choice)
 
-                rules.append((result, psubr))
+                rules.append((subl, psubr))
 
     return rules
 
