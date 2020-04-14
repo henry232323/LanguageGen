@@ -1,6 +1,8 @@
-import enum, random
-import sounds
+import enum
+import random
 import re
+
+from old import sounds
 
 with open("words.txt") as wf:
     TOPWORDS = wf.read().split("\n")
@@ -94,7 +96,13 @@ COMMONCHART = {
     ]
 
 }
-preps = {'of': 5220, 'with': 1062, 'at': 624, 'from': 622, 'into': 301, 'during': 103, 'including': 58, 'until': 54, 'against': 46, 'among': 37, 'throughout': 27, 'despite': 17, 'towards': 16, 'upon': 15, 'concerning': 3, 'to': 4951, 'in': 2822, 'for': 1752, 'on': 1087, 'by': 706, 'about': 451, 'like': 324, 'through': 235, 'over': 170, 'before': 141, 'between': 137, 'after': 110, 'since': 107, 'without': 89, 'under': 70, 'within': 46, 'along': 45, 'following': 39, 'across': 36, 'behind': 22, 'beyond': 20, 'plus': 14, 'except': 6, 'but': 626, 'up': 296, 'out': 294, 'around': 101, 'down': 94, 'off': 74, 'above': 40, 'near': 13}
+preps = {'of': 5220, 'with': 1062, 'at': 624, 'from': 622, 'into': 301, 'during': 103, 'including': 58, 'until': 54,
+         'against': 46, 'among': 37, 'throughout': 27, 'despite': 17, 'towards': 16, 'upon': 15, 'concerning': 3,
+         'to': 4951, 'in': 2822, 'for': 1752, 'on': 1087, 'by': 706, 'about': 451, 'like': 324, 'through': 235,
+         'over': 170, 'before': 141, 'between': 137, 'after': 110, 'since': 107, 'without': 89, 'under': 70,
+         'within': 46, 'along': 45, 'following': 39, 'across': 36, 'behind': 22, 'beyond': 20, 'plus': 14, 'except': 6,
+         'but': 626, 'up': 296, 'out': 294, 'around': 101, 'down': 94, 'off': 74, 'above': 40, 'near': 13}
+
 
 class Parts(enum.Enum):
     ACT = "ACT"
@@ -139,7 +147,7 @@ class Word:
                 if c:
                     break
             else:
-                changes = "unstressed"# if i == self.stressindex else "unstressed"
+                changes = "unstressed"  # if i == self.stressindex else "unstressed"
                 for item in random.sample(sounds.v_changes[changes], len(sounds.v_changes[changes])):
                     if re.match(item[0], s):
                         f = s
@@ -149,10 +157,10 @@ class Word:
             self.whole = s
 
 
-class Verb(Word): # 0 obj = intransitive, 1 obj = transitive, 2 indirect object
-    def __init__(self, *args, nobjects=0, **kwargs,):
+class Verb(Word):  # 0 obj = intransitive, 1 obj = transitive, 2 indirect object
+    def __init__(self, *args, nobjects=0, **kwargs, ):
         super().__init__(*args, **kwargs)
         self.nobjects = nobjects
-    
+
     def __repr__(self):
         return f"Verb({self.whole}, defn={self.meaning}, sindex={self.stressindex}, mutchance={self.mutchance}), nobjects={self.nobjects}"

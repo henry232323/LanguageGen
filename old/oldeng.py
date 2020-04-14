@@ -1,4 +1,4 @@
-import lang
+from old import lang
 
 consonants = {
     "nasal": {

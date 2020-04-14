@@ -1,6 +1,5 @@
 import random
-import enum
-import words, sounds, sentence
+from old import sentence, sounds, words
 
 choice = random.choice
 
