@@ -1,12 +1,3 @@
-import itertools
-import re
-
-import ipapy
-from ipapy.ipastring import IPAString
-
-with open("index-diachronica.txt", 'r') as text:
-    data = text.read()
-
 """
     Ø = Nothing/Null/Zero
     A = Affricate
@@ -33,6 +24,12 @@ with open("index-diachronica.txt", 'r') as text:
     W = Semivowel
     Z = Continuant
     """
+
+import itertools
+import re
+
+import ipapy
+from ipapy.ipastring import IPAString
 
 codes = dict(
     A={x for x in ipapy.IPA_CHARS if x.is_consonant and x.manner == "affricate"},
@@ -63,31 +60,10 @@ rules = []
 optpat = re.compile(r"(\(.+?\))")
 anypat = re.compile(r"({(.*?,)*?(.*?)})")
 
-for line in data.split():
-    try:
-        if '→' not in line:
-            continue
-        l, r = line.split("→")
-        r = re.sub("(.*?)/.*$", r"\1", r)
-        for subl, subr in zip(l.split(), r.split()):
-            subl = subl.strip()
-            result = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
-            subr = subr.strip()
-            print(result)
-            subr = anypat.findall(optpat.sub(r"\1?", subr))
-            print(subr)
-            for prod in itertools.product(subr):
-                rules.append((result, subr.replace(prod, asd)))
-    except:
-        continue
 
-
-import re, itertools
-
-optpat = re.compile(r"(\(.+?\))")
-anypat = re.compile(r"({(.*?,)*?(.*?)})")
-
-rules = []
+def format_group(letter):
+    group = codes[letter]
+    return "({})".format("|".join(str(x) for x in group))
 
 
 def parse(line):
@@ -98,20 +74,46 @@ def parse(line):
     for subl, subr in zip(l.split(), r.split()):
         subl = subl.strip()
         result = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
+
+        codecount = 0
+        for code in codes:
+            while code in subl:
+                subl = subl.replace(code, format_group(code), 1)
+                subr = subr.replace(code, rf"\{codecount + 1}", 1)
+                codecount += 1
+
         subr = subr.strip()
-        print(result)
-        print(subr, optpat.sub(r"\1?", subr))
-        allsubs = [x[0] for x in anypat.findall(subr)] + [x[0] for x in optpat.findall(subr)]
-        print(subr)
-        for prod in itertools.product(subr):
-            rules.append((result, subr.replace(prod, prod.strip("{").strip("}").split(","))))
+        # print(optpat.findall(subr))
+        allsubs = [
+                      [(x[0], y) for y in x[0].strip("{").strip("}").split(",")]
+                      for x in anypat.findall(subr)
+                  ] + [[(x, ""), (x, x.strip("(").strip(")"))] for x in optpat.findall(subr)]
+        # print(allsubs)
+        if not allsubs:
+            rules.append((result, subr))
+        else:
+            for prod in itertools.product(*allsubs):
+                psubr = subr
+                # print(list(prod))
+                for full, choice in prod:
+                    psubr = psubr.replace(full, choice)
+
+                rules.append((result, psubr))
+
+    return rules
 
 
+with open("index-diachronica.txt", 'r') as text:
+    data = text.read()
 
+for line in data.split():
+    try:
+        parse(line)
+    except:
+        continue
 
+print(len(rules))
+import json
 
-
-
-
-
-
+with open("rules.json", "w") as rfile:
+    rfile.write(json.dumps(rules, indent=4))
