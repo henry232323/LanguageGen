@@ -18,12 +18,13 @@ def runchanges(corpus, nchanges=25, debug=False):
 
     if debug:
         print(f"{len(frules)} rules available for corpus")
-    apply = sample(frules, min(nchanges, len(frules)))
+    apply = sample(list(set(frules)), min(nchanges, len(frules)))
     if debug:
         print("Rules:", apply)
     for rule in apply:
         for word in corpus:
             lword = corpus[word][-1]
+            print(rule)
             nword = re.sub(rule[0], rule[1], lword)
             if nword != lword:
                 corpus[word].append(nword)

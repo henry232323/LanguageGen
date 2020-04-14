@@ -26,9 +26,9 @@
     """
 
 import itertools
-import json
 import re
 
+import dill as dill
 import ipapy
 
 codes = dict(
@@ -64,6 +64,60 @@ def format_group(letter):
     return "({})".format("|".join(str(x) for x in group))
 
 
+def getvoiced(x):
+    try:
+        ochar = ipapy.UNICODE_TO_IPA[x]
+    except:
+        return x
+
+    for char in ipapy.IPA_CHARS:
+        if not char.is_consonant:
+            continue
+        if (char.voicing != ochar.voicing and
+                char.manner == ochar.manner and
+                char.place == ochar.place and
+                char.modifiers == ochar.modifiers
+        ):
+            return str(char)
+
+
+def finalize(subl, subr):
+    i = 0
+    subr = subr.replace("Ø", "")
+    while i < len(subl):
+        code = subl[i]
+        if code in codes:
+            ncode = rf"{code}\[.*?\]"
+            fg = format_group(code)
+            subl = re.sub(ncode, fg, subl, 1)
+            tc = subl[:i].count('(')
+            subr = subr.replace(code, rf"\{tc + 1}", 1)
+            i += len(fg)
+        else:
+            i += 1
+
+    print(subl, subr)
+
+    def nsubr(outer):
+        def subannotation(inner):
+            g1 = inner.group(1)
+            g2 = inner.group(2)
+
+            if g2.endswith("voice"):
+                return getvoiced(outer.group(int(g1.strip("\\"))))
+            else:
+                return inner.group(0)
+
+
+        nsub = re.sub(r"(\\\d)\[(.*?)\]", subannotation, subr)
+        return re.sub(subl, nsub, outer.string)
+
+    return subl, nsubr
+
+
+# TODO: Manage voice -> unvoice etc
+# TODO: Manage matching for things like _# and #_, so no more weird disappearing vowels
+
 def parse(RULES, line):
     line = line.replace("*", "").replace("!", "")
     if '→' not in line:
@@ -73,23 +127,14 @@ def parse(RULES, line):
     for subl, subr in zip(l.split(), r.split()):
         subl = subl.strip()
         subl = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
+        if subl.startswith("-"):
+            subl = subl.strip("-")
+            subl += "$"
+            subr = subr.strip("-")
 
-        for code in codes:
-            if code in subr and code not in subl:
-                return
-
-        i = 0
-        subr = subr.replace("Ø", "")
-        while i < len(subl):
-            code = subl[i]
-            if code in codes:
-                fg = format_group(code)
-                subl = subl.replace(code, fg, 1)
-                tc = subl[:i].count('(')
-                subr = subr.replace(code, rf"\{tc + 1}", 1)
-                i += len(fg)
-            else:
-                i += 1
+        # for code in codes:
+        #     if code in subr and code not in subl:
+        #         continue
 
         subr = subr.strip()
         # print(optpat.findall(subr))
@@ -102,9 +147,10 @@ def parse(RULES, line):
         try:
             re.compile(subl)
         except:
-            print(line)
+            continue
+
         if not allsubs:
-            RULES.append((subl, subr))
+            RULES.append(finalize(subl, subr))
         else:
             for prod in itertools.product(*allsubs):
                 psubr = subr
@@ -112,13 +158,13 @@ def parse(RULES, line):
                 for full, choice in prod:
                     psubr = psubr.replace(full, choice)
 
-                RULES.append((subl, psubr))
+                RULES.append(finalize(subl, subr))
 
     return RULES
 
 
 def get_defaults():
-    with open("index-diachronica.txt", 'r', encoding="UTF-8") as text:
+    with open("index-fixed.txt", 'r', encoding="UTF-8") as text:
         data = text.read()
 
     rules = []
@@ -127,10 +173,11 @@ def get_defaults():
             parse(rules, line)
         except Exception as e:
             pass
-            #print(e)
+            # print(e)
 
-    with open("rules.json", "w", encoding="UTF-8") as rfile:
-        rfile.write(json.dumps(rules, indent=4, ensure_ascii=False))
+    with open("rules.dat", "wb") as rfile:
+        print(rules[:30])
+        dill.dump(rules, rfile)
 
     return rules
 
@@ -139,5 +186,5 @@ if __name__ == "__main__":
     default_rules = get_defaults()
 
 else:
-    with open("rules.json", "r", encoding="UTF-8") as rfile:
-        default_rules = json.load(rfile)
+    with open("rules.dat", "rb") as rfile:
+        default_rules = dill.load(rfile)
