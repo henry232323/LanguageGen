@@ -65,6 +65,7 @@ def format_group(letter):
 
 
 def getvoiced(x):
+    #print(x)
     try:
         ochar = ipapy.UNICODE_TO_IPA[x]
     except:
@@ -82,22 +83,6 @@ def getvoiced(x):
 
 
 def finalize(subl, subr):
-    i = 0
-    subr = subr.replace("Ø", "")
-    while i < len(subl):
-        code = subl[i]
-        if code in codes:
-            ncode = rf"{code}\[.*?\]"
-            fg = format_group(code)
-            subl = re.sub(ncode, fg, subl, 1)
-            tc = subl[:i].count('(')
-            subr = subr.replace(code, rf"\{tc + 1}", 1)
-            i += len(fg)
-        else:
-            i += 1
-
-    print(subl, subr)
-
     def nsubr(outer):
         def subannotation(inner):
             g1 = inner.group(1)
@@ -106,11 +91,20 @@ def finalize(subl, subr):
             if g2.endswith("voice"):
                 return getvoiced(outer.group(int(g1.strip("\\"))))
             else:
-                return inner.group(0)
-
+                return inner.group(1)
 
         nsub = re.sub(r"(\\\d)\[(.*?)\]", subannotation, subr)
-        return re.sub(subl, nsub, outer.string)
+        try:
+            re.compile(subl)
+        except:
+            return outer.group(0)
+        if not subl.strip() or subl.count("(") == 1 and subl.startswith("(") and (
+                subl.endswith(")") or subl.endswith("?")):
+            return outer.group(0)
+        sub = re.sub(subl, nsub, outer.group(0))
+        if len(sub) > 2 * len(outer.group(0)) and len(sub) > 5:
+            return outer.group(0)
+        return sub
 
     return subl, nsubr
 
@@ -123,10 +117,26 @@ def parse(RULES, line):
     if '→' not in line:
         return
     l, r = line.split("→")
-    r = re.sub("(.*?)/.*$", r"\1", r)
+    r = re.sub("(.*?)(/.*)?$", r"\1", r)
+    remainder = re.sub("(.*?)/(.*)?$", r"\2", r).split()[0].strip()
     for subl, subr in zip(l.split(), r.split()):
+        if set(remainder) == set("#_"):
+            if remainder == "#_":
+                subl = "^" + subl
+            elif remainder == "_#":
+                subl += "$"
+
         subl = subl.strip()
         subl = re.sub(",", "|", anypat.sub(r"(\2\3)", optpat.sub(r"\1?", subl)))
+
+        def remparens(m):
+            inside = m.group(0)[1:-1]
+            parts = inside.split("|")
+            rest = "|".join(x.strip("?").strip("(").strip(")") for x in parts)
+            return f"({rest})"
+
+        subl = re.sub(r"\(.*?\)", remparens, subl)
+
         if subl.startswith("-"):
             subl = subl.strip("-")
             subl += "$"
@@ -137,6 +147,20 @@ def parse(RULES, line):
         #         continue
 
         subr = subr.strip()
+
+        i = 0
+        subr = subr.replace("Ø", "")
+        while i < len(subl):
+            code = subl[i]
+            if code in codes:
+                ncode = rf"{code}\[.*?\]"
+                fg = format_group(code)
+                subl = re.sub(ncode, fg, subl, 1)
+                tc = subl[:i].count('(')
+                subr = subr.replace(code, rf"\{tc + 1}", 1)
+                i += len(fg)
+            else:
+                i += 1
         # print(optpat.findall(subr))
 
         allsubs = [
@@ -158,7 +182,7 @@ def parse(RULES, line):
                 for full, choice in prod:
                     psubr = psubr.replace(full, choice)
 
-                RULES.append(finalize(subl, subr))
+                RULES.append(finalize(subl, psubr))
 
     return RULES
 
@@ -182,9 +206,9 @@ def get_defaults():
     return rules
 
 
-if __name__ == "__main__":
-    default_rules = get_defaults()
+# if __name__ == "__main__":
+default_rules = get_defaults()
 
-else:
-    with open("rules.dat", "rb") as rfile:
-        default_rules = dill.load(rfile)
+# else:
+#     with open("rules.dat", "rb") as rfile:
+#         default_rules = dill.load(rfile)

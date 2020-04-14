@@ -7,9 +7,9 @@ import eng_to_ipa as ipa
 from changes import default_rules
 
 
-def runchanges(corpus, nchanges=25, debug=False):
+def runchanges(corpus, nchanges=25, debug=False, rules=default_rules):
     frules = []
-    for rule in default_rules:
+    for rule in rules:
         try:
             if any(re.findall(rule[0], word[0]) for word in corpus.values()):
                 frules.append(rule)
@@ -24,10 +24,14 @@ def runchanges(corpus, nchanges=25, debug=False):
     for rule in apply:
         for word in corpus:
             lword = corpus[word][-1]
-            print(rule)
             nword = re.sub(rule[0], rule[1], lword)
             if nword != lword:
+                if len(nword) >= 2 * (len(lword) - 1) and len(lword) > 4:
+                    raise Exception(
+                        "\nNew Word: {0}\nOld Word: {1}\nRule Match: {2}\nRule Sub: {3}".format(nword, lword, rule[0],
+                                                                                                rule[1]))
                 corpus[word].append(nword)
+                # print(nword)
 
     return corpus
 
